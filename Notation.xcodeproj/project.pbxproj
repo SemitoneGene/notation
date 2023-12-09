@@ -2189,7 +2189,6 @@
 		29FB00511F196BBF002E52B8 /* Sim.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Sim.cc; sourceTree = "<group>"; };
 		29FB00521F196BBF002E52B8 /* Sim.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sim.h; sourceTree = "<group>"; };
 		29FB00581F196EE3002E52B8 /* PlaneID.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlaneID.h; sourceTree = "<group>"; };
-		3D035EE529FFB9E700D29FB4 /* BeamStrokeParams.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BeamStrokeParams.cc; sourceTree = "<group>"; };
 		3D035EEC29FFB9E800D29FB4 /* BeamStrokeParams.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeamStrokeParams.h; sourceTree = "<group>"; };
 		3D0B1EB3238B55470087A93F /* DrawableLayerFactory.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DrawableLayerFactory.cc; sourceTree = "<group>"; };
 		3D0B1EB4238B55480087A93F /* DrawableLayerFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawableLayerFactory.h; sourceTree = "<group>"; };
@@ -2217,51 +2216,8 @@
 		3D3C852120C45165006B41D9 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
 		3D3C854520C454F3006B41D9 /* libLoggingiOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libLoggingiOS.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D3C854B20C4551C006B41D9 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/lib/libc++.tbd"; sourceTree = DEVELOPER_DIR; };
-		3D4EC6C029E321E800145A7A /* ordered_map.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ordered_map.hpp; sourceTree = "<group>"; };
-		3D4EC6C129E321E800145A7A /* json.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = json.hpp; sourceTree = "<group>"; };
-		3D4EC6C229E321E800145A7A /* adl_serializer.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = adl_serializer.hpp; sourceTree = "<group>"; };
-		3D4EC6C329E321E800145A7A /* byte_container_with_subtype.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = byte_container_with_subtype.hpp; sourceTree = "<group>"; };
-		3D4EC6C529E321E800145A7A /* hash.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = hash.hpp; sourceTree = "<group>"; };
-		3D4EC6C629E321E800145A7A /* string_escape.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = string_escape.hpp; sourceTree = "<group>"; };
-		3D4EC6C729E321E800145A7A /* json_custom_base_class.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = json_custom_base_class.hpp; sourceTree = "<group>"; };
-		3D4EC6C829E321E800145A7A /* json_ref.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = json_ref.hpp; sourceTree = "<group>"; };
-		3D4EC6CA29E321E800145A7A /* to_chars.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = to_chars.hpp; sourceTree = "<group>"; };
-		3D4EC6CB29E321E800145A7A /* from_json.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = from_json.hpp; sourceTree = "<group>"; };
-		3D4EC6CC29E321E800145A7A /* to_json.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = to_json.hpp; sourceTree = "<group>"; };
-		3D4EC6CD29E321E800145A7A /* value_t.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = value_t.hpp; sourceTree = "<group>"; };
-		3D4EC6CF29E321E800145A7A /* position_t.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = position_t.hpp; sourceTree = "<group>"; };
-		3D4EC6D029E321E800145A7A /* parser.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = parser.hpp; sourceTree = "<group>"; };
-		3D4EC6D129E321E800145A7A /* json_sax.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = json_sax.hpp; sourceTree = "<group>"; };
-		3D4EC6D229E321E800145A7A /* binary_reader.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = binary_reader.hpp; sourceTree = "<group>"; };
-		3D4EC6D329E321E800145A7A /* input_adapters.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = input_adapters.hpp; sourceTree = "<group>"; };
-		3D4EC6D429E321E800145A7A /* lexer.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = lexer.hpp; sourceTree = "<group>"; };
-		3D4EC6D529E321E800145A7A /* string_concat.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = string_concat.hpp; sourceTree = "<group>"; };
-		3D4EC6D629E321E800145A7A /* macro_scope.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = macro_scope.hpp; sourceTree = "<group>"; };
-		3D4EC6D829E321E800145A7A /* output_adapters.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = output_adapters.hpp; sourceTree = "<group>"; };
-		3D4EC6D929E321E800145A7A /* serializer.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = serializer.hpp; sourceTree = "<group>"; };
-		3D4EC6DA29E321E800145A7A /* binary_writer.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = binary_writer.hpp; sourceTree = "<group>"; };
-		3D4EC6DC29E321E800145A7A /* is_sax.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = is_sax.hpp; sourceTree = "<group>"; };
-		3D4EC6DE29E321E800145A7A /* end.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = end.hpp; sourceTree = "<group>"; };
-		3D4EC6DF29E321E800145A7A /* begin.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = begin.hpp; sourceTree = "<group>"; };
-		3D4EC6E029E321E800145A7A /* identity_tag.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = identity_tag.hpp; sourceTree = "<group>"; };
-		3D4EC6E129E321E800145A7A /* type_traits.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = type_traits.hpp; sourceTree = "<group>"; };
-		3D4EC6E229E321E800145A7A /* cpp_future.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = cpp_future.hpp; sourceTree = "<group>"; };
-		3D4EC6E329E321E800145A7A /* detected.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = detected.hpp; sourceTree = "<group>"; };
-		3D4EC6E429E321E800145A7A /* void_t.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = void_t.hpp; sourceTree = "<group>"; };
-		3D4EC6E529E321E800145A7A /* std_fs.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = std_fs.hpp; sourceTree = "<group>"; };
-		3D4EC6E629E321E800145A7A /* json_pointer.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = json_pointer.hpp; sourceTree = "<group>"; };
-		3D4EC6E729E321E800145A7A /* exceptions.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = exceptions.hpp; sourceTree = "<group>"; };
-		3D4EC6E829E321E800145A7A /* abi_macros.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = abi_macros.hpp; sourceTree = "<group>"; };
-		3D4EC6E929E321E800145A7A /* macro_unscope.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = macro_unscope.hpp; sourceTree = "<group>"; };
-		3D4EC6EB29E321E800145A7A /* iter_impl.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = iter_impl.hpp; sourceTree = "<group>"; };
-		3D4EC6EC29E321E800145A7A /* json_reverse_iterator.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = json_reverse_iterator.hpp; sourceTree = "<group>"; };
-		3D4EC6ED29E321E800145A7A /* iteration_proxy.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = iteration_proxy.hpp; sourceTree = "<group>"; };
-		3D4EC6EE29E321E800145A7A /* iterator_traits.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = iterator_traits.hpp; sourceTree = "<group>"; };
-		3D4EC6EF29E321E800145A7A /* internal_iterator.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = internal_iterator.hpp; sourceTree = "<group>"; };
-		3D4EC6F029E321E800145A7A /* primitive_iterator.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = primitive_iterator.hpp; sourceTree = "<group>"; };
-		3D4EC6F329E321E800145A7A /* hedley.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = hedley.hpp; sourceTree = "<group>"; };
-		3D4EC6F429E321E800145A7A /* hedley_undef.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = hedley_undef.hpp; sourceTree = "<group>"; };
-		3D4EC6F529E321E800145A7A /* json_fwd.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = json_fwd.hpp; sourceTree = "<group>"; };
+		3D4F9EA22B23FDFA0097BC91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D4F9EA32B23FE210097BC91 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		3D576C7B1E0F6A8A00B72A88 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
 		3D57E13226D0C5A700B66831 /* Mx.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Mx.xcframework; path = FrameworksApple/Mx.xcframework; sourceTree = "<group>"; };
 		3D5BF1231FDA148000414A44 /* LockTypes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LockTypes.h; sourceTree = "<group>"; };
@@ -2300,7 +2256,6 @@
 		3D87C94729FFD3BE0080C844 /* BeamLine.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BeamLine.cc; sourceTree = "<group>"; };
 		3D87C94829FFD3BE0080C844 /* BeamLineCreator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeamLineCreator.h; sourceTree = "<group>"; };
 		3D8BA28829DDDE9A00659045 /* NotationLinux.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NotationLinux.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3D8BA28929DDDE9B00659045 /* NotationLinux-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "NotationLinux-Info.plist"; path = "/Users/gragan/inprogress/semitone/komp/Notation/NotationLinux-Info.plist"; sourceTree = "<absolute>"; };
 		3D8BA28B29DDE0CA00659045 /* FontThemeLinux.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FontThemeLinux.h; path = Fonts/Linux/FontThemeLinux.h; sourceTree = "<group>"; };
 		3D8BA28C29DDE0CB00659045 /* FontManagerLinux.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FontManagerLinux.h; path = Fonts/Linux/FontManagerLinux.h; sourceTree = "<group>"; };
 		3D8BA28D29DDE0CB00659045 /* FontThemeLinux.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = FontThemeLinux.cc; path = Fonts/Linux/FontThemeLinux.cc; sourceTree = "<group>"; };
@@ -2502,7 +2457,6 @@
 				3DB2BE042A81F912007A33CA /* QtWidgets.framework */,
 				3DA007242A8157F000BD0CCB /* QtGui.framework */,
 				3DA0071E2A81579700BD0CCB /* QtCore.framework */,
-				3D4EC6BF29E321E800145A7A /* nlohmann */,
 				3D57E13226D0C5A700B66831 /* Mx.xcframework */,
 				3D3C854B20C4551C006B41D9 /* libc++.tbd */,
 				3D3C854520C454F3006B41D9 /* libLoggingiOS.a */,
@@ -2522,8 +2476,7 @@
 				3D576C7B1E0F6A8A00B72A88 /* CoreGraphics.framework */,
 				3DAF58A01D76CF8B0088C6AF /* libxml2.tbd */,
 			);
-			name = Frameworks;
-			path = ../Frameworks;
+			path = Frameworks;
 			sourceTree = "<group>";
 		};
 		291DB699244BA48A0051787B /* Tests */ = {
@@ -2777,137 +2730,12 @@
 			path = NotationOSX;
 			sourceTree = "<group>";
 		};
-		3D4EC6BF29E321E800145A7A /* nlohmann */ = {
+		3D4F9E9F2B23FDFA0097BC91 /* NotationLinux */ = {
 			isa = PBXGroup;
 			children = (
-				3D4EC6C029E321E800145A7A /* ordered_map.hpp */,
-				3D4EC6C129E321E800145A7A /* json.hpp */,
-				3D4EC6C229E321E800145A7A /* adl_serializer.hpp */,
-				3D4EC6C329E321E800145A7A /* byte_container_with_subtype.hpp */,
-				3D4EC6C429E321E800145A7A /* detail */,
-				3D4EC6F129E321E800145A7A /* thirdparty */,
-				3D4EC6F529E321E800145A7A /* json_fwd.hpp */,
+				3D4F9EA22B23FDFA0097BC91 /* Info.plist */,
 			);
-			name = nlohmann;
-			path = json/include/nlohmann;
-			sourceTree = "<group>";
-		};
-		3D4EC6C429E321E800145A7A /* detail */ = {
-			isa = PBXGroup;
-			children = (
-				3D4EC6C529E321E800145A7A /* hash.hpp */,
-				3D4EC6C629E321E800145A7A /* string_escape.hpp */,
-				3D4EC6C729E321E800145A7A /* json_custom_base_class.hpp */,
-				3D4EC6C829E321E800145A7A /* json_ref.hpp */,
-				3D4EC6C929E321E800145A7A /* conversions */,
-				3D4EC6CD29E321E800145A7A /* value_t.hpp */,
-				3D4EC6CE29E321E800145A7A /* input */,
-				3D4EC6D529E321E800145A7A /* string_concat.hpp */,
-				3D4EC6D629E321E800145A7A /* macro_scope.hpp */,
-				3D4EC6D729E321E800145A7A /* output */,
-				3D4EC6DB29E321E800145A7A /* meta */,
-				3D4EC6E629E321E800145A7A /* json_pointer.hpp */,
-				3D4EC6E729E321E800145A7A /* exceptions.hpp */,
-				3D4EC6E829E321E800145A7A /* abi_macros.hpp */,
-				3D4EC6E929E321E800145A7A /* macro_unscope.hpp */,
-				3D4EC6EA29E321E800145A7A /* iterators */,
-			);
-			path = detail;
-			sourceTree = "<group>";
-		};
-		3D4EC6C929E321E800145A7A /* conversions */ = {
-			isa = PBXGroup;
-			children = (
-				3D4EC6CA29E321E800145A7A /* to_chars.hpp */,
-				3D4EC6CB29E321E800145A7A /* from_json.hpp */,
-				3D4EC6CC29E321E800145A7A /* to_json.hpp */,
-			);
-			path = conversions;
-			sourceTree = "<group>";
-		};
-		3D4EC6CE29E321E800145A7A /* input */ = {
-			isa = PBXGroup;
-			children = (
-				3D4EC6CF29E321E800145A7A /* position_t.hpp */,
-				3D4EC6D029E321E800145A7A /* parser.hpp */,
-				3D4EC6D129E321E800145A7A /* json_sax.hpp */,
-				3D4EC6D229E321E800145A7A /* binary_reader.hpp */,
-				3D4EC6D329E321E800145A7A /* input_adapters.hpp */,
-				3D4EC6D429E321E800145A7A /* lexer.hpp */,
-			);
-			path = input;
-			sourceTree = "<group>";
-		};
-		3D4EC6D729E321E800145A7A /* output */ = {
-			isa = PBXGroup;
-			children = (
-				3D4EC6D829E321E800145A7A /* output_adapters.hpp */,
-				3D4EC6D929E321E800145A7A /* serializer.hpp */,
-				3D4EC6DA29E321E800145A7A /* binary_writer.hpp */,
-			);
-			path = output;
-			sourceTree = "<group>";
-		};
-		3D4EC6DB29E321E800145A7A /* meta */ = {
-			isa = PBXGroup;
-			children = (
-				3D4EC6DC29E321E800145A7A /* is_sax.hpp */,
-				3D4EC6DD29E321E800145A7A /* call_std */,
-				3D4EC6E029E321E800145A7A /* identity_tag.hpp */,
-				3D4EC6E129E321E800145A7A /* type_traits.hpp */,
-				3D4EC6E229E321E800145A7A /* cpp_future.hpp */,
-				3D4EC6E329E321E800145A7A /* detected.hpp */,
-				3D4EC6E429E321E800145A7A /* void_t.hpp */,
-				3D4EC6E529E321E800145A7A /* std_fs.hpp */,
-			);
-			path = meta;
-			sourceTree = "<group>";
-		};
-		3D4EC6DD29E321E800145A7A /* call_std */ = {
-			isa = PBXGroup;
-			children = (
-				3D4EC6DE29E321E800145A7A /* end.hpp */,
-				3D4EC6DF29E321E800145A7A /* begin.hpp */,
-			);
-			path = call_std;
-			sourceTree = "<group>";
-		};
-		3D4EC6EA29E321E800145A7A /* iterators */ = {
-			isa = PBXGroup;
-			children = (
-				3D4EC6EB29E321E800145A7A /* iter_impl.hpp */,
-				3D4EC6EC29E321E800145A7A /* json_reverse_iterator.hpp */,
-				3D4EC6ED29E321E800145A7A /* iteration_proxy.hpp */,
-				3D4EC6EE29E321E800145A7A /* iterator_traits.hpp */,
-				3D4EC6EF29E321E800145A7A /* internal_iterator.hpp */,
-				3D4EC6F029E321E800145A7A /* primitive_iterator.hpp */,
-			);
-			path = iterators;
-			sourceTree = "<group>";
-		};
-		3D4EC6F129E321E800145A7A /* thirdparty */ = {
-			isa = PBXGroup;
-			children = (
-				3D4EC6F229E321E800145A7A /* hedley */,
-			);
-			path = thirdparty;
-			sourceTree = "<group>";
-		};
-		3D4EC6F229E321E800145A7A /* hedley */ = {
-			isa = PBXGroup;
-			children = (
-				3D4EC6F329E321E800145A7A /* hedley.hpp */,
-				3D4EC6F429E321E800145A7A /* hedley_undef.hpp */,
-			);
-			path = hedley;
-			sourceTree = "<group>";
-		};
-		3D87C91929FFBAF90080C844 /* Recovered References */ = {
-			isa = PBXGroup;
-			children = (
-				3D035EE529FFB9E700D29FB4 /* BeamStrokeParams.cc */,
-			);
-			name = "Recovered References";
+			path = NotationLinux;
 			sourceTree = "<group>";
 		};
 		3D8BA29329DDE0D600659045 /* MacOs */ = {
@@ -3003,13 +2831,13 @@
 		3DC68D591D76B3DA0053057F = {
 			isa = PBXGroup;
 			children = (
+				3D4F9EA32B23FE210097BC91 /* README.md */,
 				3DC68EC61D76B4950053057F /* Notation-Sourcecode */,
 				3DC6901F1D76B50E0053057F /* NotationiOS */,
 				3D17D6D11D76BF7B007B6C67 /* NotationOSX */,
+				3D4F9E9F2B23FDFA0097BC91 /* NotationLinux */,
 				3DC68D641D76B3DA0053057F /* Products */,
 				0475BDCFDA002412755FC12B /* Frameworks */,
-				3D8BA28929DDDE9B00659045 /* NotationLinux-Info.plist */,
-				3D87C91929FFBAF90080C844 /* Recovered References */,
 			);
 			sourceTree = "<group>";
 		};
@@ -5486,8 +5314,16 @@
 				DEVELOPMENT_TEAM = RRS55ZY6E5;
 				ENABLE_HARDENED_RUNTIME = YES;
 				FRAMEWORK_SEARCH_PATHS = "";
-				GCC_PREPROCESSOR_DEFINITIONS = "$(inherited)";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"KOMP_BUILD_APPLE=1",
+				);
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/include,
+					/opt/homebrew/include,
+				);
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path";
 				MACOSX_DEPLOYMENT_TARGET = 13.5;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -5510,8 +5346,16 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				FRAMEWORK_SEARCH_PATHS = "";
 				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_PREPROCESSOR_DEFINITIONS = "$(inherited)";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"KOMP_BUILD_APPLE=1",
+				);
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/include,
+					/opt/homebrew/include,
+				);
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path";
 				MACOSX_DEPLOYMENT_TARGET = 13.5;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -5537,7 +5381,7 @@
 				DYLIB_CURRENT_VERSION = 1;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/../Frameworks/FrameworksApple",
+					"$(PROJECT_DIR)/Frameworks/FrameworksApple",
 				);
 				FRAMEWORK_VERSION = A;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
@@ -5559,7 +5403,7 @@
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					/usr/local/include,
-					"$PROJECT_DIR/../Frameworks/FrameworksApple/Mx.xcframework/macos-arm64_x86_64/MxmacOS.framework/Resources",
+					"$PROJECT_DIR/Frameworks/FrameworksApple/Mx.xcframework/macos-arm64_x86_64/MxmacOS.framework/Resources",
 				);
 				INFOPLIST_FILE = NotationOSX/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -5593,8 +5437,8 @@
 				DYLIB_CURRENT_VERSION = 1;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/../Frameworks/FrameworksApple",
-					/opt/homebrew/Cellar/qt/6.5.1_2/lib,
+					"$(PROJECT_DIR)/Frameworks/FrameworksApple",
+					/opt/homebrew/Cellar/qt/6.6.0/lib,
 				);
 				FRAMEWORK_VERSION = A;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
@@ -5616,13 +5460,13 @@
 				GCC_WARN_UNUSED_FUNCTION = NO;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
-					"$PROJECT_DIR/../Frameworks/FrameworksApple/Mx.xcframework/macos-arm64_x86_64/MxmacOS.framework/Resources",
+					"$PROJECT_DIR/Frameworks/FrameworksApple/Mx.xcframework/macos-arm64_x86_64/MxmacOS.framework/Resources",
 					/usr/local/include,
 					/opt/homebrew/include,
 					/opt/homebrew/include/freetype2,
 					/opt/homebrew/include/opencv4,
 				);
-				INFOPLIST_FILE = "NotationLinux-Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/NotationLinux/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LIBRARY_SEARCH_PATHS = /usr/local/lib;
 				PRODUCT_BUNDLE_IDENTIFIER = audio.semitone.NotationOSX;
@@ -5652,8 +5496,8 @@
 				DYLIB_CURRENT_VERSION = 1;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/../Frameworks/FrameworksApple",
-					/opt/homebrew/Cellar/qt/6.5.1_2/lib,
+					"$(PROJECT_DIR)/Frameworks/FrameworksApple",
+					/opt/homebrew/Cellar/qt/6.6.0/lib,
 				);
 				FRAMEWORK_VERSION = A;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
@@ -5675,13 +5519,13 @@
 				GCC_WARN_UNUSED_FUNCTION = NO;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
-					"$PROJECT_DIR/../Frameworks/FrameworksApple/Mx.xcframework/macos-arm64_x86_64/MxmacOS.framework/Resources",
+					"$PROJECT_DIR/Frameworks/FrameworksApple/Mx.xcframework/macos-arm64_x86_64/MxmacOS.framework/Resources",
 					/usr/local/include,
 					/opt/homebrew/include,
 					/opt/homebrew/include/freetype2,
 					/opt/homebrew/include/opencv4,
 				);
-				INFOPLIST_FILE = "NotationLinux-Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/NotationLinux/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LIBRARY_SEARCH_PATHS = /usr/local/lib;
 				PRODUCT_BUNDLE_IDENTIFIER = audio.semitone.NotationOSX;
@@ -5711,6 +5555,10 @@
 				GCC_PREPROCESSOR_DEFINITIONS = "KOMP_BUILD_APPLE=1";
 				GCC_WARN_64_TO_32_BIT_CONVERSION = NO;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$PROJECT_DIR/Frameworks/FrameworksApple/Mx.xcframework/macos-arm64_x86_64/MxmacOS.framework/Resources",
+				);
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -5745,6 +5593,10 @@
 				);
 				GCC_WARN_64_TO_32_BIT_CONVERSION = NO;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$PROJECT_DIR/Frameworks/FrameworksApple/Mx.xcframework/macos-arm64_x86_64/MxmacOS.framework/Resources",
+				);
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -5799,12 +5651,11 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = (
-					$PROJECT_DIR/../Frameworks,
-					$PROJECT_DIR/../Frameworks/json/include/,
-					$PROJECT_DIR/../Frameworks/FrameworksApple/boost/include,
-					"$PROJECT_DIR/../Kern/Kern-Include",
+					$PROJECT_DIR/Frameworks,
+					$PROJECT_DIR/Frameworks/json/include/,
+					$PROJECT_DIR/Frameworks/FrameworksApple/boost/include,
 					"$PROJECT_DIR/Notation-Sourcecode/**",
-					$PROJECT_DIR/../Frameworks/phmap,
+					$PROJECT_DIR/Frameworks/phmap,
 				);
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LIBRARY_SEARCH_PATHS = "";
@@ -5846,7 +5697,7 @@
 				GCC_WARN_UNUSED_FUNCTION = NO;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
-					"$PROJECT_DIR/../Frameworks/FrameworksApple/Mx.xcframework/ios-arm64/MxiOS.framework",
+					"$PROJECT_DIR/Frameworks/FrameworksApple/Mx.xcframework/ios-arm64/MxiOS.framework",
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/NotationiOS/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -5904,12 +5755,11 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = (
-					$PROJECT_DIR/../Frameworks,
-					$PROJECT_DIR/../Frameworks/json/include/,
-					$PROJECT_DIR/../Frameworks/FrameworksApple/boost/include,
-					"$PROJECT_DIR/../Kern/Kern-Include",
+					$PROJECT_DIR/Frameworks,
+					$PROJECT_DIR/Frameworks/json/include/,
+					$PROJECT_DIR/Frameworks/FrameworksApple/boost/include,
 					"$PROJECT_DIR/Notation-Sourcecode/**",
-					$PROJECT_DIR/../Frameworks/phmap,
+					$PROJECT_DIR/Frameworks/phmap,
 				);
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LIBRARY_SEARCH_PATHS = "";
@@ -5952,7 +5802,7 @@
 				GCC_WARN_UNUSED_FUNCTION = NO;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
-					"$PROJECT_DIR/../Frameworks/FrameworksApple/Mx.xcframework/ios-arm64/MxiOS.framework",
+					"$PROJECT_DIR/Frameworks/FrameworksApple/Mx.xcframework/ios-arm64/MxiOS.framework",
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/NotationiOS/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -5982,7 +5832,7 @@
 				DYLIB_CURRENT_VERSION = 1;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/../Frameworks/FrameworksApple",
+					"$(PROJECT_DIR)/Frameworks/FrameworksApple",
 				);
 				FRAMEWORK_VERSION = A;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
@@ -6004,7 +5854,7 @@
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					/usr/local/include,
-					"$PROJECT_DIR/../Frameworks/FrameworksApple/Mx.xcframework/macos-arm64_x86_64/MxmacOS.framework/Resources",
+					"$PROJECT_DIR/Frameworks/FrameworksApple/Mx.xcframework/macos-arm64_x86_64/MxmacOS.framework/Resources",
 				);
 				INFOPLIST_FILE = NotationOSX/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";

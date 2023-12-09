@@ -1,0 +1,69 @@
+// Semitone Inc. Confidential Information.
+// TM and (c) 2016-present Semitone Inc.  All Rights Reserved.
+// Reproduction in whole or in part without prior written permission of a
+// duly authorized representative is prohibited.
+
+// Adapted from info found here:
+// https://en.wikibooks.org/wiki/C_Programming/Preprocessor#X-Macros
+
+#ifndef KOMP_ENUM_CLASS_NAME
+    #error KOMP_ENUM_CLASS_NAME must be defined
+#endif
+
+#ifndef KOMP_ENUM_MEMBERS
+    #error KOMP_ENUM_MEMBERS must be defined
+#endif
+
+#define RETURN_KOMP_ENUM_CLASS_NAME(KOMP_ENUM_CLASS_NAME) KOMP_ENUM_CLASS_NAME
+
+#define KOMP_CAT(a, ...) KOMP_PRIMITIVE_CAT(a, __VA_ARGS__)
+#define KOMP_PRIMITIVE_CAT(a, ...) a ## __VA_ARGS__
+
+#define KOMP_ENUM_VALUE(value, string) value,
+
+enum class KOMP_ENUM_CLASS_NAME { KOMP_ENUM_MEMBERS(KOMP_ENUM_VALUE) };
+
+#undef KOMP_ENUM_VALUE
+#ifdef KOMP_STRING_CONSTANT_NAME
+#undef KOMP_STRING_CONSTANT_NAME
+#endif
+
+#define KOMP_STRING_CONSTANT_NAME(XXX, value) KOMP_CAT(KOMP_CAT(XXX, _), KOMP_CAT(value, _String))
+
+#define KOMP_ENUM_VALUE(value, string) static constexpr const char* const KOMP_STRING_CONSTANT_NAME(  RETURN_KOMP_ENUM_CLASS_NAME( KOMP_ENUM_CLASS_NAME ) , value ) = string;
+
+KOMP_ENUM_MEMBERS(KOMP_ENUM_VALUE);
+
+#undef KOMP_ENUM_VALUE
+
+#define KOMP_ENUM_VALUE(value, string) case KOMP_ENUM_CLASS_NAME::value: return KOMP_STRING_CONSTANT_NAME(  RETURN_KOMP_ENUM_CLASS_NAME( KOMP_ENUM_CLASS_NAME ) , value );
+
+#define KOMP_ENUM_TO_STRING(A) KOMP_PRIMITIVE_CAT(A, ToString)
+
+inline const char* const KOMP_ENUM_TO_STRING(KOMP_ENUM_CLASS_NAME) ( KOMP_ENUM_CLASS_NAME inValue ) {
+    switch (inValue) {
+        KOMP_ENUM_MEMBERS(KOMP_ENUM_VALUE)
+    }
+    throw std::runtime_error("bad enum value");
+}
+
+#undef KOMP_ENUM_VALUE
+
+#define KOMP_ENUM_VALUE(value, string) if (inValue == KOMP_STRING_CONSTANT_NAME(  RETURN_KOMP_ENUM_CLASS_NAME( KOMP_ENUM_CLASS_NAME ) , value )) { \
+    return KOMP_ENUM_CLASS_NAME::value; \
+} \
+
+#undef KOMP_TO_ENUM
+#define KOMP_TO_ENUM(A) KOMP_PRIMITIVE_CAT(A, FromString)
+
+inline KOMP_ENUM_CLASS_NAME KOMP_TO_ENUM(KOMP_ENUM_CLASS_NAME) ( const std::string& inValue ) {
+    KOMP_ENUM_MEMBERS(KOMP_ENUM_VALUE)
+    throw std::runtime_error("bad string value");
+}
+
+#undef KOMP_TO_ENUM_FUNCTION_DECLARATION
+#undef KOMP_ENUM_VALUE
+#undef KOMP_ENUM_VALUES
+#undef KOMP_ENUM_CLASS_NAME
+#undef KOMP_ENUM_MEMBERS
+#undef KOMP_TO_ENUM

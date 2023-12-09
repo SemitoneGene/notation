@@ -1,0 +1,5 @@
+boost
+MIKMIDI.xcframework/
+Mx.xcframework/
+opencv2.xcframework/
+*.zip

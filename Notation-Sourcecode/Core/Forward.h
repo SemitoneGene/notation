@@ -15,8 +15,8 @@
 #include "Logging.h"
 
 // Kern
-#include "kern/ForwardDeclare.h"
-#include "kern/TargetOs.h"
+#include <kern/ForwardDeclare.h>
+#include <kern/TargetOs.h>
 
 namespace komp
 {
