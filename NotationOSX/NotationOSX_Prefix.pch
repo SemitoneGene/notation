@@ -1,0 +1,12 @@
+
+#ifdef __OBJC__
+#import <Cocoa/Cocoa.h>
+#endif
+
+#ifdef DEBUG
+#define LOC std::cout << "debug:" << __FILE__ << ":" << __LINE__ << " ";
+#define UNIMPL(inText) LOC std::cout << "UNIMPL " << inText << std::endl;
+#else
+#define LOC
+#define UNIMPL(text)
+#endif

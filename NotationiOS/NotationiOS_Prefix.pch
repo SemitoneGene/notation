@@ -1,0 +1,8 @@
+
+#ifdef __OBJC__
+#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+#endif
+
+#define LOC std::cout << "debug:" << __FILE__ << ":" << __LINE__ << " ";
+#define UNIMPL(inText) LOC std::cout << "UNIMPL " << inText << std::endl;
