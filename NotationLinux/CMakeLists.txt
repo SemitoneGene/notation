@@ -34,10 +34,10 @@ find_package(Qt6 COMPONENTS Core REQUIRED)
 
 add_definitions(-DUSE_OPENCV -DKOMP_BUILD_LINUX)
 
-include_directories(../../Frameworks/
-                    ../../Frameworks/json/include
-                    ../../Frameworks/phmap                    
-                    ../../Kern/Kern-include
+include_directories(../Frameworks/
+                    ../Frameworks/json/include
+                    ../Frameworks/phmap
+                    ../Frameworks/FrameworksApple/Mx.xcframework/macos-arm64_x86_64/MxmacOS.framework/Versions/A/Resources
                     ../Notation-Sourcecode/Backend
                     ../Notation-Sourcecode/Backend/Linux
                     ../Notation-Sourcecode/Clipboard
