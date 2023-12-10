@@ -32,8 +32,8 @@ set(CMAKE_AUTOMOC ON)
 set(CMAKE_AUTOUIC ON)
 set(CMAKE_AUTORCC ON)
 
-set(NOTATION_ROOT ../../../..)
-set(MX_ROOT ../../../../../mx)
+set(NOTATION_ROOT ../../..)
+set(MX_ROOT ../../../../mx)
 
 add_subdirectory(${NOTATION_ROOT}/NotationLinux ${CMAKE_BINARY_DIR}/_build/NotationLinux)
 add_subdirectory(${MX_ROOT} ${CMAKE_BINARY_DIR}/_build/mx)
@@ -49,8 +49,8 @@ add_compile_definitions(
 set(MX_BUILD ${NOTATION_ROOT}/mx/build)
 set(NOTATION_BUILD ${NOTATION_ROOT}/NotationLinux/build)
 set(FRAMEWORKS_SRC $${NOTATION_ROOT}/Frameworks)
-set(NOTATION_SRC ${NOTATION_ROOT}Notation-Sourcecode)
-set(TEST_APP_SRC ${NOTATION_ROOT}/Examples/TestApp)
+set(NOTATION_SRC ${NOTATION_ROOT}/Notation-Sourcecode)
+set(TEST_APP_SRC ${NOTATION_ROOT}/TestApp)
 set(TEST_SUPPORT_SRC ${TEST_APP_SRC}/TestSupport)
 set(CPUL_SRC ${TEST_APP_SRC}/Cpul)
 set(TESTS_SRC ${TEST_APP_SRC}/Tests)
@@ -59,7 +59,6 @@ include_directories(${TEST_APP_SRC}
                     ${TEST_APP_SRC}/App/Linux
                     ${TEST_SUPPORT_SRC}
                     ${FRAMEWORKS_SRC}
-                    ${FRAMEWORKS_SRC}/EzXml/src/include                    
                     ${FRAMEWORKS_SRC}/phmap
                     ${FRAMEWORKS_SRC}/FrameworksApple/boost/include
                     ${NOTATION_SRC}/Backend
@@ -95,7 +94,6 @@ target_sources(testapp PRIVATE main.cc
                 ${TESTS_SRC}/BeamLineTest.cc
                 ${TESTS_SRC}/BeamSaveTest.cc
                 ${TESTS_SRC}/BeamSpecTest.cc
-                ${TESTS_SRC}/BeamStrokeTest.cc
                 ${TESTS_SRC}/BeamTest.cc
                 ${TESTS_SRC}/BeamedNoteTest.cc
                 ${TESTS_SRC}/BeatGroupingTest.cc
@@ -121,7 +119,6 @@ target_sources(testapp PRIVATE main.cc
                 ${TESTS_SRC}/MxSlurTest.cc
                 ${TESTS_SRC}/MxStemTest.cc
                 ${TESTS_SRC}/MxTimeSignatureTest.cc
-                ${TESTS_SRC}/NoteHandlerTest.cc
                 ${TESTS_SRC}/NoteTest.cc
                 ${TESTS_SRC}/PasteTest.cc
                 ${TESTS_SRC}/PitchInfoTest.cc
@@ -151,7 +148,7 @@ target_link_libraries(testapp PRIVATE
                       ${PNG_LIBRARY}
                       ${ZLIB_LIBRARY}
                       ${MX_LIBRARY}
-                       Qt6::Core 
-                       Qt6::Widgets
+                      Qt6::Core 
+                      Qt6::Widgets
                       mx
                       notation)
