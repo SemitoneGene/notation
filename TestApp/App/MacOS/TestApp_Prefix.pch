@@ -1,0 +1,14 @@
+
+#ifdef __cplusplus
+#include "Logging.h"
+#endif
+
+#ifdef __OBJC__
+#import <Cocoa/Cocoa.h>
+#import <Foundation/Foundation.h>
+#endif
+
+#define KompBezierPath NSBezierPath
+#define KompFont NSFont
+#define KompImage NSImage
+

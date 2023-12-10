@@ -742,6 +742,84 @@
 		3D2F73BF2008806700395FF2 /* FontManagerMacOS.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3D2F73BC2008806600395FF2 /* FontManagerMacOS.mm */; };
 		3D4EC67F29E0AC3200145A7A /* NotationLinux.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D8BA28829DDDE9A00659045 /* NotationLinux.framework */; };
 		3D4EC68029E0AC4000145A7A /* NotationLinux.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3D8BA28829DDDE9A00659045 /* NotationLinux.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3D4F9F8F2B2542410097BC91 /* cpulFailure.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3D4F9F2C2B2542400097BC91 /* cpulFailure.cpp */; };
+		3D4F9F902B2542410097BC91 /* cpulTestRegistry.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3D4F9F2F2B2542400097BC91 /* cpulTestRegistry.cpp */; };
+		3D4F9F912B2542410097BC91 /* cpulTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3D4F9F342B2542400097BC91 /* cpulTest.cpp */; };
+		3D4F9F922B2542410097BC91 /* cpulTestResult.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3D4F9F352B2542400097BC91 /* cpulTestResult.cpp */; };
+		3D4F9F932B2542410097BC91 /* MxDirectionTest.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3D4F9F382B2542400097BC91 /* MxDirectionTest.cc */; };
+		3D4F9F942B2542410097BC91 /* BeamedNoteTest.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3D4F9F392B2542400097BC91 /* BeamedNoteTest.cc */; };
+		3D4F9F952B2542410097BC91 /* MxStemTest.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3D4F9F3A2B2542400097BC91 /* MxStemTest.cc */; };
+		3D4F9F962B2542410097BC91 /* MxConversionsTest.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3D4F9F3B2B2542400097BC91 /* MxConversionsTest.cc */; };
+		3D4F9F972B2542410097BC91 /* SpatialPointTest.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3D4F9F3C2B2542400097BC91 /* SpatialPointTest.cc */; };
+		3D4F9F982B2542410097BC91 /* BeatGroupingTest.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3D4F9F3D2B2542400097BC91 /* BeatGroupingTest.cc */; };
+		3D4F9F992B2542410097BC91 /* ChordSymbolRepository.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3D4F9F3E2B2542400097BC91 /* ChordSymbolRepository.cc */; };
+		3D4F9F9A2B2542410097BC91 /* BracketTest.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3D4F9F3F2B2542400097BC91 /* BracketTest.cc */; };
+		3D4F9F9C2B2542410097BC91 /* MxMarkTest.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3D4F9F422B2542400097BC91 /* MxMarkTest.cc */; };
+		3D4F9F9D2B2542410097BC91 /* LoadAllFilesTest.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3D4F9F432B2542400097BC91 /* LoadAllFilesTest.cc */; };
+		3D4F9F9E2B2542410097BC91 /* LordChordTest.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3D4F9F442B2542400097BC91 /* LordChordTest.cc */; };
+		3D4F9F9F2B2542410097BC91 /* ChordHeadTest.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3D4F9F452B2542400097BC91 /* ChordHeadTest.cc */; };
+		3D4F9FA02B2542410097BC91 /* MarkPositionTest.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3D4F9F462B2542400097BC91 /* MarkPositionTest.cc */; };
+		3D4F9FA12B2542410097BC91 /* TempoValueTest.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3D4F9F482B2542400097BC91 /* TempoValueTest.cc */; };
+		3D4F9FA22B2542410097BC91 /* BeamFactoryTest.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3D4F9F492B2542400097BC91 /* BeamFactoryTest.cc */; };
+		3D4F9FA32B2542410097BC91 /* TupletTest.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3D4F9F4A2B2542400097BC91 /* TupletTest.cc */; };
+		3D4F9FA42B2542410097BC91 /* PlaybackNoteTest.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3D4F9F4B2B2542400097BC91 /* PlaybackNoteTest.cc */; };
+		3D4F9FA52B2542410097BC91 /* BeamLineTest.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3D4F9F4C2B2542400097BC91 /* BeamLineTest.cc */; };
+		3D4F9FA72B2542410097BC91 /* BeamSpecTest.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3D4F9F4F2B2542400097BC91 /* BeamSpecTest.cc */; };
+		3D4F9FA82B2542410097BC91 /* BeamSaveTest.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3D4F9F512B2542400097BC91 /* BeamSaveTest.cc */; };
+		3D4F9FA92B2542410097BC91 /* MxDynamicsTest.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3D4F9F522B2542400097BC91 /* MxDynamicsTest.cc */; };
+		3D4F9FAA2B2542410097BC91 /* MxSlurTest.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3D4F9F542B2542400097BC91 /* MxSlurTest.cc */; };
+		3D4F9FAB2B2542410097BC91 /* MxClefTest.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3D4F9F572B2542400097BC91 /* MxClefTest.cc */; };
+		3D4F9FAC2B2542410097BC91 /* TimeMapTest.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3D4F9F582B2542400097BC91 /* TimeMapTest.cc */; };
+		3D4F9FAD2B2542410097BC91 /* MeasureTest.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3D4F9F592B2542400097BC91 /* MeasureTest.cc */; };
+		3D4F9FAE2B2542410097BC91 /* StaffTest.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3D4F9F5A2B2542400097BC91 /* StaffTest.cc */; };
+		3D4F9FAF2B2542410097BC91 /* ChordSymbolValueTest.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3D4F9F5B2B2542400097BC91 /* ChordSymbolValueTest.cc */; };
+		3D4F9FB02B2542410097BC91 /* RawAccidentalTest.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3D4F9F5E2B2542400097BC91 /* RawAccidentalTest.cc */; };
+		3D4F9FB12B2542410097BC91 /* BarlineTest.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3D4F9F602B2542400097BC91 /* BarlineTest.cc */; };
+		3D4F9FB22B2542410097BC91 /* InstrumentConfigTest.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3D4F9F612B2542400097BC91 /* InstrumentConfigTest.cc */; };
+		3D4F9FB32B2542410097BC91 /* PitchInfoTest.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3D4F9F632B2542400097BC91 /* PitchInfoTest.cc */; };
+		3D4F9FB42B2542410097BC91 /* SevereTortureTest.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3D4F9F642B2542400097BC91 /* SevereTortureTest.cc */; };
+		3D4F9FB52B2542410097BC91 /* ThreadingTest.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3D4F9F672B2542400097BC91 /* ThreadingTest.mm */; };
+		3D4F9FB62B2542410097BC91 /* InstrumentTest.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3D4F9F692B2542400097BC91 /* InstrumentTest.cc */; };
+		3D4F9FB82B2542410097BC91 /* NoteTest.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3D4F9F6C2B2542400097BC91 /* NoteTest.cc */; };
+		3D4F9FB92B2542410097BC91 /* CurveTest.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3D4F9F6D2B2542400097BC91 /* CurveTest.cc */; };
+		3D4F9FBA2B2542410097BC91 /* FileLoadResultTest.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3D4F9F6F2B2542400097BC91 /* FileLoadResultTest.cc */; };
+		3D4F9FBB2B2542410097BC91 /* PasteTest.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3D4F9F712B2542400097BC91 /* PasteTest.cc */; };
+		3D4F9FBC2B2542410097BC91 /* AttachedItemTest.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3D4F9F722B2542400097BC91 /* AttachedItemTest.cc */; };
+		3D4F9FBD2B2542410097BC91 /* BeamTest.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3D4F9F732B2542400097BC91 /* BeamTest.cc */; };
+		3D4F9FBE2B2542410097BC91 /* BombeTest.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3D4F9F742B2542400097BC91 /* BombeTest.cc */; };
+		3D4F9FBF2B2542410097BC91 /* ChordSymbolTest.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3D4F9F752B2542400097BC91 /* ChordSymbolTest.cc */; };
+		3D4F9FC02B2542410097BC91 /* FermataTest.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3D4F9F762B2542400097BC91 /* FermataTest.cc */; };
+		3D4F9FC12B2542410097BC91 /* ChordTest.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3D4F9F782B2542400097BC91 /* ChordTest.cc */; };
+		3D4F9FC22B2542410097BC91 /* TestScores.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3D4F9F792B2542400097BC91 /* TestScores.cc */; };
+		3D4F9FC32B2542410097BC91 /* MxTimeSignatureTest.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3D4F9F7A2B2542400097BC91 /* MxTimeSignatureTest.cc */; };
+		3D4F9FC42B2542410097BC91 /* KeySignatureTest.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3D4F9F7B2B2542400097BC91 /* KeySignatureTest.cc */; };
+		3D4F9FC52B2542410097BC91 /* TestMenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D4F9F7E2B2542400097BC91 /* TestMenuItem.m */; };
+		3D4F9FC62B2542410097BC91 /* TestController.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3D4F9F7F2B2542400097BC91 /* TestController.cc */; };
+		3D4F9FC72B2542410097BC91 /* TestBridge.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3D4F9F812B2542400097BC91 /* TestBridge.mm */; };
+		3D4F9FC82B2542410097BC91 /* MxTest.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3D4F9F862B2542400097BC91 /* MxTest.mm */; };
+		3D4F9FCA2B2542410097BC91 /* TestFileRepository.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3D4F9F8A2B2542400097BC91 /* TestFileRepository.mm */; };
+		3D4F9FCB2B2542410097BC91 /* TestFile.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3D4F9F8B2B2542400097BC91 /* TestFile.cc */; };
+		3D4F9FCC2B2543550097BC91 /* Mx.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D86F87A26C06460009F9396 /* Mx.xcframework */; };
+		3D4F9FCF2B25465A0097BC91 /* NotationOSX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D17D6D01D76BF7B007B6C67 /* NotationOSX.framework */; };
+		3D4F9FE42B25480B0097BC91 /* ScoreViewCocoa.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3D4F9FD52B25480B0097BC91 /* ScoreViewCocoa.mm */; };
+		3D4F9FE52B25480B0097BC91 /* ScoreDocumentCocoa.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D4F9FD62B25480B0097BC91 /* ScoreDocumentCocoa.xib */; };
+		3D4F9FE62B25480B0097BC91 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D4F9FD82B25480B0097BC91 /* Assets.xcassets */; };
+		3D4F9FE72B25480B0097BC91 /* ScoreDocumentController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D4F9FD92B25480B0097BC91 /* ScoreDocumentController.m */; };
+		3D4F9FE82B25480B0097BC91 /* ScoreDocumentCocoa.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3D4F9FDA2B25480B0097BC91 /* ScoreDocumentCocoa.mm */; };
+		3D4F9FE92B25480B0097BC91 /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3D4F9FDB2B25480B0097BC91 /* main.mm */; };
+		3D4F9FEA2B25480B0097BC91 /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3D4F9FDD2B25480B0097BC91 /* AppDelegate.mm */; };
+		3D4F9FEB2B25480B0097BC91 /* Directories.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3D4F9FE02B25480B0097BC91 /* Directories.mm */; };
+		3D4F9FEC2B25480B0097BC91 /* ScoreManager.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3D4F9FE12B25480B0097BC91 /* ScoreManager.cc */; };
+		3D4FA00C2B2548610097BC91 /* bravura_metadata.json in Resources */ = {isa = PBXBuildFile; fileRef = 3D4F9FFD2B2548610097BC91 /* bravura_metadata.json */; };
+		3D4FA00F2B2548610097BC91 /* glyphnames.json in Resources */ = {isa = PBXBuildFile; fileRef = 3D4FA0002B2548610097BC91 /* glyphnames.json */; };
+		3D4FA0142B254AC20097BC91 /* Bravura.otf in Copy Fonts */ = {isa = PBXBuildFile; fileRef = 3D4FA0032B2548610097BC91 /* Bravura.otf */; };
+		3D4FA0152B254ACD0097BC91 /* bravura_metadata.json in Copy Fonts */ = {isa = PBXBuildFile; fileRef = 3D4F9FFD2B2548610097BC91 /* bravura_metadata.json */; };
+		3D4FA0162B254ACD0097BC91 /* BravuraText.otf in Copy Fonts */ = {isa = PBXBuildFile; fileRef = 3D4FA0012B2548610097BC91 /* BravuraText.otf */; };
+		3D4FA0182B254B430097BC91 /* NotationOSX.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3D17D6D01D76BF7B007B6C67 /* NotationOSX.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3D4FA01B2B254BFA0097BC91 /* ZipArchive in Frameworks */ = {isa = PBXBuildFile; productRef = 3D4FA01A2B254BFA0097BC91 /* ZipArchive */; };
+		3D4FA01C2B254CED0097BC91 /* Mx.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3D57E13226D0C5A700B66831 /* Mx.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3D4FA01E2B254D3F0097BC91 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D4FA01D2B254D3F0097BC91 /* MainMenu.xib */; };
+		3D4FA02F2B254FF80097BC91 /* Config in Resources */ = {isa = PBXBuildFile; fileRef = 3D4FA02E2B254FF80097BC91 /* Config */; };
 		3D709C6E24419F4E002AA9DE /* DrawableKeySignature.cc in Sources */ = {isa = PBXBuildFile; fileRef = E2E1E652243FD510000D8B12 /* DrawableKeySignature.cc */; };
 		3D709C6F24419F4E002AA9DE /* DrawableKeySignature.h in Headers */ = {isa = PBXBuildFile; fileRef = E2E1E651243FD510000D8B12 /* DrawableKeySignature.h */; };
 		3D709C7024419F4F002AA9DE /* DrawableKeySignature.cc in Sources */ = {isa = PBXBuildFile; fileRef = E2E1E652243FD510000D8B12 /* DrawableKeySignature.cc */; };
@@ -1780,6 +1858,13 @@
 			remoteGlobalIDString = 3D8BA08A29DDDE9A00659045;
 			remoteInfo = NotationLinux;
 		};
+		3D4F9F282B25408A0097BC91 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3DC68D5A1D76B3DA0053057F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D17D6CF1D76BF7B007B6C67;
+			remoteInfo = NotationOSX;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -1799,6 +1884,31 @@
 			dstSubfolderSpec = 10;
 			files = (
 				3D4EC68029E0AC4000145A7A /* NotationLinux.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D4FA0132B254AAA0097BC91 /* Copy Fonts */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = Fonts;
+			dstSubfolderSpec = 7;
+			files = (
+				3D4FA0152B254ACD0097BC91 /* bravura_metadata.json in Copy Fonts */,
+				3D4FA0162B254ACD0097BC91 /* BravuraText.otf in Copy Fonts */,
+				3D4FA0142B254AC20097BC91 /* Bravura.otf in Copy Fonts */,
+			);
+			name = "Copy Fonts";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D4FA0172B254B330097BC91 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				3D4FA01C2B254CED0097BC91 /* Mx.xcframework in Embed Frameworks */,
+				3D4FA0182B254B430097BC91 /* NotationOSX.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -2218,6 +2328,127 @@
 		3D3C854B20C4551C006B41D9 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/lib/libc++.tbd"; sourceTree = DEVELOPER_DIR; };
 		3D4F9EA22B23FDFA0097BC91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3D4F9EA32B23FE210097BC91 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3D4F9EB42B253D1F0097BC91 /* TestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D4F9F2B2B2542400097BC91 /* cpulTestTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpulTestTimer.h; sourceTree = "<group>"; };
+		3D4F9F2C2B2542400097BC91 /* cpulFailure.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cpulFailure.cpp; sourceTree = "<group>"; };
+		3D4F9F2D2B2542400097BC91 /* cpulTestRegistry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpulTestRegistry.h; sourceTree = "<group>"; };
+		3D4F9F2E2B2542400097BC91 /* cpulFailure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpulFailure.h; sourceTree = "<group>"; };
+		3D4F9F2F2B2542400097BC91 /* cpulTestRegistry.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cpulTestRegistry.cpp; sourceTree = "<group>"; };
+		3D4F9F302B2542400097BC91 /* cpulTestHarness.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpulTestHarness.h; sourceTree = "<group>"; };
+		3D4F9F312B2542400097BC91 /* cpulDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpulDefines.h; sourceTree = "<group>"; };
+		3D4F9F322B2542400097BC91 /* cpulTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpulTest.h; sourceTree = "<group>"; };
+		3D4F9F332B2542400097BC91 /* cpulTestResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpulTestResult.h; sourceTree = "<group>"; };
+		3D4F9F342B2542400097BC91 /* cpulTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cpulTest.cpp; sourceTree = "<group>"; };
+		3D4F9F352B2542400097BC91 /* cpulTestResult.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cpulTestResult.cpp; sourceTree = "<group>"; };
+		3D4F9F362B2542400097BC91 /* cpulVsTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpulVsTest.h; sourceTree = "<group>"; };
+		3D4F9F382B2542400097BC91 /* MxDirectionTest.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MxDirectionTest.cc; sourceTree = "<group>"; };
+		3D4F9F392B2542400097BC91 /* BeamedNoteTest.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BeamedNoteTest.cc; sourceTree = "<group>"; };
+		3D4F9F3A2B2542400097BC91 /* MxStemTest.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MxStemTest.cc; sourceTree = "<group>"; };
+		3D4F9F3B2B2542400097BC91 /* MxConversionsTest.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MxConversionsTest.cc; sourceTree = "<group>"; };
+		3D4F9F3C2B2542400097BC91 /* SpatialPointTest.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SpatialPointTest.cc; sourceTree = "<group>"; };
+		3D4F9F3D2B2542400097BC91 /* BeatGroupingTest.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BeatGroupingTest.cc; sourceTree = "<group>"; };
+		3D4F9F3E2B2542400097BC91 /* ChordSymbolRepository.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ChordSymbolRepository.cc; sourceTree = "<group>"; };
+		3D4F9F3F2B2542400097BC91 /* BracketTest.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BracketTest.cc; sourceTree = "<group>"; };
+		3D4F9F422B2542400097BC91 /* MxMarkTest.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MxMarkTest.cc; sourceTree = "<group>"; };
+		3D4F9F432B2542400097BC91 /* LoadAllFilesTest.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LoadAllFilesTest.cc; sourceTree = "<group>"; };
+		3D4F9F442B2542400097BC91 /* LordChordTest.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LordChordTest.cc; sourceTree = "<group>"; };
+		3D4F9F452B2542400097BC91 /* ChordHeadTest.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ChordHeadTest.cc; sourceTree = "<group>"; };
+		3D4F9F462B2542400097BC91 /* MarkPositionTest.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MarkPositionTest.cc; sourceTree = "<group>"; };
+		3D4F9F472B2542400097BC91 /* MxWedgeScore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MxWedgeScore.h; sourceTree = "<group>"; };
+		3D4F9F482B2542400097BC91 /* TempoValueTest.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TempoValueTest.cc; sourceTree = "<group>"; };
+		3D4F9F492B2542400097BC91 /* BeamFactoryTest.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BeamFactoryTest.cc; sourceTree = "<group>"; };
+		3D4F9F4A2B2542400097BC91 /* TupletTest.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TupletTest.cc; sourceTree = "<group>"; };
+		3D4F9F4B2B2542400097BC91 /* PlaybackNoteTest.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PlaybackNoteTest.cc; sourceTree = "<group>"; };
+		3D4F9F4C2B2542400097BC91 /* BeamLineTest.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BeamLineTest.cc; sourceTree = "<group>"; };
+		3D4F9F4D2B2542400097BC91 /* MxStemScores.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MxStemScores.h; sourceTree = "<group>"; };
+		3D4F9F4F2B2542400097BC91 /* BeamSpecTest.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BeamSpecTest.cc; sourceTree = "<group>"; };
+		3D4F9F502B2542400097BC91 /* ChordScore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChordScore.h; sourceTree = "<group>"; };
+		3D4F9F512B2542400097BC91 /* BeamSaveTest.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BeamSaveTest.cc; sourceTree = "<group>"; };
+		3D4F9F522B2542400097BC91 /* MxDynamicsTest.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MxDynamicsTest.cc; sourceTree = "<group>"; };
+		3D4F9F532B2542400097BC91 /* TestScores.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestScores.h; sourceTree = "<group>"; };
+		3D4F9F542B2542400097BC91 /* MxSlurTest.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MxSlurTest.cc; sourceTree = "<group>"; };
+		3D4F9F552B2542400097BC91 /* AttachedItemScore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AttachedItemScore.h; sourceTree = "<group>"; };
+		3D4F9F562B2542400097BC91 /* BeamSaveScores.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeamSaveScores.h; sourceTree = "<group>"; };
+		3D4F9F572B2542400097BC91 /* MxClefTest.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MxClefTest.cc; sourceTree = "<group>"; };
+		3D4F9F582B2542400097BC91 /* TimeMapTest.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TimeMapTest.cc; sourceTree = "<group>"; };
+		3D4F9F592B2542400097BC91 /* MeasureTest.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MeasureTest.cc; sourceTree = "<group>"; };
+		3D4F9F5A2B2542400097BC91 /* StaffTest.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = StaffTest.cc; sourceTree = "<group>"; };
+		3D4F9F5B2B2542400097BC91 /* ChordSymbolValueTest.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ChordSymbolValueTest.cc; sourceTree = "<group>"; };
+		3D4F9F5C2B2542400097BC91 /* BracketTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BracketTest.h; sourceTree = "<group>"; };
+		3D4F9F5D2B2542400097BC91 /* ChordSymbolRepository.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChordSymbolRepository.h; sourceTree = "<group>"; };
+		3D4F9F5E2B2542400097BC91 /* RawAccidentalTest.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RawAccidentalTest.cc; sourceTree = "<group>"; };
+		3D4F9F5F2B2542400097BC91 /* FermataTestScore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FermataTestScore.h; sourceTree = "<group>"; };
+		3D4F9F602B2542400097BC91 /* BarlineTest.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BarlineTest.cc; sourceTree = "<group>"; };
+		3D4F9F612B2542400097BC91 /* InstrumentConfigTest.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = InstrumentConfigTest.cc; sourceTree = "<group>"; };
+		3D4F9F632B2542400097BC91 /* PitchInfoTest.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PitchInfoTest.cc; sourceTree = "<group>"; };
+		3D4F9F642B2542400097BC91 /* SevereTortureTest.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SevereTortureTest.cc; sourceTree = "<group>"; };
+		3D4F9F652B2542400097BC91 /* BasicScore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicScore.h; sourceTree = "<group>"; };
+		3D4F9F662B2542400097BC91 /* BeamTestScores.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeamTestScores.h; sourceTree = "<group>"; };
+		3D4F9F672B2542400097BC91 /* ThreadingTest.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ThreadingTest.mm; sourceTree = "<group>"; };
+		3D4F9F682B2542400097BC91 /* NoteSpacerScores.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoteSpacerScores.h; sourceTree = "<group>"; };
+		3D4F9F692B2542400097BC91 /* InstrumentTest.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = InstrumentTest.cc; sourceTree = "<group>"; };
+		3D4F9F6B2B2542400097BC91 /* BombeTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BombeTest.h; sourceTree = "<group>"; };
+		3D4F9F6C2B2542400097BC91 /* NoteTest.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NoteTest.cc; sourceTree = "<group>"; };
+		3D4F9F6D2B2542400097BC91 /* CurveTest.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CurveTest.cc; sourceTree = "<group>"; };
+		3D4F9F6E2B2542400097BC91 /* CurveScores.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CurveScores.h; sourceTree = "<group>"; };
+		3D4F9F6F2B2542400097BC91 /* FileLoadResultTest.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FileLoadResultTest.cc; sourceTree = "<group>"; };
+		3D4F9F702B2542400097BC91 /* TupletScores.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TupletScores.h; sourceTree = "<group>"; };
+		3D4F9F712B2542400097BC91 /* PasteTest.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PasteTest.cc; sourceTree = "<group>"; };
+		3D4F9F722B2542400097BC91 /* AttachedItemTest.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AttachedItemTest.cc; sourceTree = "<group>"; };
+		3D4F9F732B2542400097BC91 /* BeamTest.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BeamTest.cc; sourceTree = "<group>"; };
+		3D4F9F742B2542400097BC91 /* BombeTest.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BombeTest.cc; sourceTree = "<group>"; };
+		3D4F9F752B2542400097BC91 /* ChordSymbolTest.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ChordSymbolTest.cc; sourceTree = "<group>"; };
+		3D4F9F762B2542400097BC91 /* FermataTest.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FermataTest.cc; sourceTree = "<group>"; };
+		3D4F9F772B2542400097BC91 /* ChordSymbolScores.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChordSymbolScores.h; sourceTree = "<group>"; };
+		3D4F9F782B2542400097BC91 /* ChordTest.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ChordTest.cc; sourceTree = "<group>"; };
+		3D4F9F792B2542400097BC91 /* TestScores.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TestScores.cc; sourceTree = "<group>"; };
+		3D4F9F7A2B2542400097BC91 /* MxTimeSignatureTest.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MxTimeSignatureTest.cc; sourceTree = "<group>"; };
+		3D4F9F7B2B2542400097BC91 /* KeySignatureTest.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = KeySignatureTest.cc; sourceTree = "<group>"; };
+		3D4F9F7D2B2542400097BC91 /* TestHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestHelpers.h; sourceTree = "<group>"; };
+		3D4F9F7E2B2542400097BC91 /* TestMenuItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestMenuItem.m; sourceTree = "<group>"; };
+		3D4F9F7F2B2542400097BC91 /* TestController.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TestController.cc; sourceTree = "<group>"; };
+		3D4F9F802B2542400097BC91 /* TestFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestFile.h; sourceTree = "<group>"; };
+		3D4F9F812B2542400097BC91 /* TestBridge.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = TestBridge.mm; sourceTree = "<group>"; };
+		3D4F9F822B2542400097BC91 /* MxTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MxTest.h; sourceTree = "<group>"; };
+		3D4F9F832B2542400097BC91 /* TestNoteFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestNoteFactory.h; sourceTree = "<group>"; };
+		3D4F9F842B2542400097BC91 /* RoundTrip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoundTrip.h; sourceTree = "<group>"; };
+		3D4F9F852B2542400097BC91 /* TestMenuItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestMenuItem.h; sourceTree = "<group>"; };
+		3D4F9F862B2542400097BC91 /* MxTest.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MxTest.mm; sourceTree = "<group>"; };
+		3D4F9F892B2542400097BC91 /* TestFileRepository.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestFileRepository.h; sourceTree = "<group>"; };
+		3D4F9F8A2B2542400097BC91 /* TestFileRepository.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = TestFileRepository.mm; sourceTree = "<group>"; };
+		3D4F9F8B2B2542400097BC91 /* TestFile.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TestFile.cc; sourceTree = "<group>"; };
+		3D4F9F8C2B2542400097BC91 /* TestBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestBridge.h; sourceTree = "<group>"; };
+		3D4F9F8D2B2542400097BC91 /* TestController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestController.h; sourceTree = "<group>"; };
+		3D4F9F8E2B2542400097BC91 /* TestControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestControl.h; sourceTree = "<group>"; };
+		3D4F9FD12B25480B0097BC91 /* TestApp-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TestApp-Bridging-Header.h"; sourceTree = "<group>"; };
+		3D4F9FD22B25480B0097BC91 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3D4F9FD32B25480B0097BC91 /* ScoreViewCocoa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScoreViewCocoa.h; sourceTree = "<group>"; };
+		3D4F9FD42B25480B0097BC91 /* ScoreManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScoreManager.h; sourceTree = "<group>"; };
+		3D4F9FD52B25480B0097BC91 /* ScoreViewCocoa.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ScoreViewCocoa.mm; sourceTree = "<group>"; };
+		3D4F9FD62B25480B0097BC91 /* ScoreDocumentCocoa.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ScoreDocumentCocoa.xib; sourceTree = "<group>"; };
+		3D4F9FD72B25480B0097BC91 /* TestApp.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = TestApp.entitlements; sourceTree = "<group>"; };
+		3D4F9FD82B25480B0097BC91 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3D4F9FD92B25480B0097BC91 /* ScoreDocumentController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScoreDocumentController.m; sourceTree = "<group>"; };
+		3D4F9FDA2B25480B0097BC91 /* ScoreDocumentCocoa.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ScoreDocumentCocoa.mm; sourceTree = "<group>"; };
+		3D4F9FDB2B25480B0097BC91 /* main.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = main.mm; sourceTree = "<group>"; };
+		3D4F9FDC2B25480B0097BC91 /* TestApp_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestApp_Prefix.pch; sourceTree = "<group>"; };
+		3D4F9FDD2B25480B0097BC91 /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = AppDelegate.mm; sourceTree = "<group>"; };
+		3D4F9FDE2B25480B0097BC91 /* ScoreDocumentController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScoreDocumentController.h; sourceTree = "<group>"; };
+		3D4F9FDF2B25480B0097BC91 /* Directories.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Directories.h; sourceTree = "<group>"; };
+		3D4F9FE02B25480B0097BC91 /* Directories.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Directories.mm; sourceTree = "<group>"; };
+		3D4F9FE12B25480B0097BC91 /* ScoreManager.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ScoreManager.cc; sourceTree = "<group>"; };
+		3D4F9FE22B25480B0097BC91 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D4F9FE32B25480B0097BC91 /* ScoreDocumentCocoa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScoreDocumentCocoa.h; sourceTree = "<group>"; };
+		3D4F9FFD2B2548610097BC91 /* bravura_metadata.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = bravura_metadata.json; sourceTree = "<group>"; };
+		3D4F9FFE2B2548610097BC91 /* classes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = classes.json; sourceTree = "<group>"; };
+		3D4F9FFF2B2548610097BC91 /* ranges.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ranges.json; sourceTree = "<group>"; };
+		3D4FA0002B2548610097BC91 /* glyphnames.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = glyphnames.json; sourceTree = "<group>"; };
+		3D4FA0012B2548610097BC91 /* BravuraText.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = BravuraText.otf; sourceTree = "<group>"; };
+		3D4FA0022B2548610097BC91 /* .gitattributes */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitattributes; sourceTree = "<group>"; };
+		3D4FA0032B2548610097BC91 /* Bravura.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Bravura.otf; sourceTree = "<group>"; };
+		3D4FA01D2B254D3F0097BC91 /* MainMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
+		3D4FA0202B254E980097BC91 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D4FA02E2B254FF80097BC91 /* Config */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Config; sourceTree = "<group>"; };
 		3D576C7B1E0F6A8A00B72A88 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
 		3D57E13226D0C5A700B66831 /* Mx.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Mx.xcframework; path = FrameworksApple/Mx.xcframework; sourceTree = "<group>"; };
 		3D5BF1231FDA148000414A44 /* LockTypes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LockTypes.h; sourceTree = "<group>"; };
@@ -2421,6 +2652,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		3D4F9EB12B253D1F0097BC91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D4F9FCF2B25465A0097BC91 /* NotationOSX.framework in Frameworks */,
+				3D4F9FCC2B2543550097BC91 /* Mx.xcframework in Frameworks */,
+				3D4FA01B2B254BFA0097BC91 /* ZipArchive in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3D8BA17129DDDE9A00659045 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -2467,8 +2708,6 @@
 				2951B3D61EC24A260073A4A8 /* Cocoa.framework */,
 				2951B3C71EC244D30073A4A8 /* CoreFoundation.framework */,
 				2951B3C21EC243630073A4A8 /* CoreText.framework */,
-				3DAF559F1D76CC160088C6AF /* FrameworksOSX */,
-				3DAF576A1D76CD2F0088C6AF /* FrameworksiOS */,
 				3D64A6701D76C3050056B56B /* AudioToolbox.framework */,
 				3D17D7331D76C2A4007B6C67 /* AudioToolbox.framework */,
 				3D64A6711D76C3050056B56B /* AudioUnit.framework */,
@@ -2738,6 +2977,190 @@
 			path = NotationLinux;
 			sourceTree = "<group>";
 		};
+		3D4F9EB52B253D1F0097BC91 /* TestApp */ = {
+			isa = PBXGroup;
+			children = (
+				3D4F9FD02B25480B0097BC91 /* MacOS */,
+				3D4F9F2A2B2542400097BC91 /* Cpul */,
+				3D4F9F372B2542400097BC91 /* Tests */,
+				3D4F9F7C2B2542400097BC91 /* TestSupport */,
+				3D4F9FEE2B2548610097BC91 /* Resources */,
+			);
+			path = TestApp;
+			sourceTree = "<group>";
+		};
+		3D4F9F2A2B2542400097BC91 /* Cpul */ = {
+			isa = PBXGroup;
+			children = (
+				3D4F9F2B2B2542400097BC91 /* cpulTestTimer.h */,
+				3D4F9F2C2B2542400097BC91 /* cpulFailure.cpp */,
+				3D4F9F2D2B2542400097BC91 /* cpulTestRegistry.h */,
+				3D4F9F2E2B2542400097BC91 /* cpulFailure.h */,
+				3D4F9F2F2B2542400097BC91 /* cpulTestRegistry.cpp */,
+				3D4F9F302B2542400097BC91 /* cpulTestHarness.h */,
+				3D4F9F312B2542400097BC91 /* cpulDefines.h */,
+				3D4F9F322B2542400097BC91 /* cpulTest.h */,
+				3D4F9F332B2542400097BC91 /* cpulTestResult.h */,
+				3D4F9F342B2542400097BC91 /* cpulTest.cpp */,
+				3D4F9F352B2542400097BC91 /* cpulTestResult.cpp */,
+				3D4F9F362B2542400097BC91 /* cpulVsTest.h */,
+			);
+			path = Cpul;
+			sourceTree = "<group>";
+		};
+		3D4F9F372B2542400097BC91 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				3D4F9F552B2542400097BC91 /* AttachedItemScore.h */,
+				3D4F9F722B2542400097BC91 /* AttachedItemTest.cc */,
+				3D4F9F602B2542400097BC91 /* BarlineTest.cc */,
+				3D4F9F652B2542400097BC91 /* BasicScore.h */,
+				3D4F9F392B2542400097BC91 /* BeamedNoteTest.cc */,
+				3D4F9F492B2542400097BC91 /* BeamFactoryTest.cc */,
+				3D4F9F4C2B2542400097BC91 /* BeamLineTest.cc */,
+				3D4F9F562B2542400097BC91 /* BeamSaveScores.h */,
+				3D4F9F512B2542400097BC91 /* BeamSaveTest.cc */,
+				3D4F9F4F2B2542400097BC91 /* BeamSpecTest.cc */,
+				3D4F9F732B2542400097BC91 /* BeamTest.cc */,
+				3D4F9F662B2542400097BC91 /* BeamTestScores.h */,
+				3D4F9F3D2B2542400097BC91 /* BeatGroupingTest.cc */,
+				3D4F9F742B2542400097BC91 /* BombeTest.cc */,
+				3D4F9F6B2B2542400097BC91 /* BombeTest.h */,
+				3D4F9F3F2B2542400097BC91 /* BracketTest.cc */,
+				3D4F9F5C2B2542400097BC91 /* BracketTest.h */,
+				3D4F9F452B2542400097BC91 /* ChordHeadTest.cc */,
+				3D4F9F502B2542400097BC91 /* ChordScore.h */,
+				3D4F9F3E2B2542400097BC91 /* ChordSymbolRepository.cc */,
+				3D4F9F5D2B2542400097BC91 /* ChordSymbolRepository.h */,
+				3D4F9F772B2542400097BC91 /* ChordSymbolScores.h */,
+				3D4F9F752B2542400097BC91 /* ChordSymbolTest.cc */,
+				3D4F9F5B2B2542400097BC91 /* ChordSymbolValueTest.cc */,
+				3D4F9F782B2542400097BC91 /* ChordTest.cc */,
+				3D4F9F6E2B2542400097BC91 /* CurveScores.h */,
+				3D4F9F6D2B2542400097BC91 /* CurveTest.cc */,
+				3D4F9F762B2542400097BC91 /* FermataTest.cc */,
+				3D4F9F5F2B2542400097BC91 /* FermataTestScore.h */,
+				3D4F9F6F2B2542400097BC91 /* FileLoadResultTest.cc */,
+				3D4F9F612B2542400097BC91 /* InstrumentConfigTest.cc */,
+				3D4F9F692B2542400097BC91 /* InstrumentTest.cc */,
+				3D4F9F7B2B2542400097BC91 /* KeySignatureTest.cc */,
+				3D4F9F432B2542400097BC91 /* LoadAllFilesTest.cc */,
+				3D4F9F442B2542400097BC91 /* LordChordTest.cc */,
+				3D4F9F462B2542400097BC91 /* MarkPositionTest.cc */,
+				3D4F9F592B2542400097BC91 /* MeasureTest.cc */,
+				3D4F9F572B2542400097BC91 /* MxClefTest.cc */,
+				3D4F9F3B2B2542400097BC91 /* MxConversionsTest.cc */,
+				3D4F9F382B2542400097BC91 /* MxDirectionTest.cc */,
+				3D4F9F522B2542400097BC91 /* MxDynamicsTest.cc */,
+				3D4F9F422B2542400097BC91 /* MxMarkTest.cc */,
+				3D4F9F542B2542400097BC91 /* MxSlurTest.cc */,
+				3D4F9F4D2B2542400097BC91 /* MxStemScores.h */,
+				3D4F9F3A2B2542400097BC91 /* MxStemTest.cc */,
+				3D4F9F7A2B2542400097BC91 /* MxTimeSignatureTest.cc */,
+				3D4F9F472B2542400097BC91 /* MxWedgeScore.h */,
+				3D4F9F682B2542400097BC91 /* NoteSpacerScores.h */,
+				3D4F9F6C2B2542400097BC91 /* NoteTest.cc */,
+				3D4F9F712B2542400097BC91 /* PasteTest.cc */,
+				3D4F9F632B2542400097BC91 /* PitchInfoTest.cc */,
+				3D4F9F4B2B2542400097BC91 /* PlaybackNoteTest.cc */,
+				3D4F9F5E2B2542400097BC91 /* RawAccidentalTest.cc */,
+				3D4F9F642B2542400097BC91 /* SevereTortureTest.cc */,
+				3D4F9F3C2B2542400097BC91 /* SpatialPointTest.cc */,
+				3D4F9F5A2B2542400097BC91 /* StaffTest.cc */,
+				3D4F9F482B2542400097BC91 /* TempoValueTest.cc */,
+				3D4F9F792B2542400097BC91 /* TestScores.cc */,
+				3D4F9F532B2542400097BC91 /* TestScores.h */,
+				3D4F9F672B2542400097BC91 /* ThreadingTest.mm */,
+				3D4F9F582B2542400097BC91 /* TimeMapTest.cc */,
+				3D4F9F702B2542400097BC91 /* TupletScores.h */,
+				3D4F9F4A2B2542400097BC91 /* TupletTest.cc */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		3D4F9F7C2B2542400097BC91 /* TestSupport */ = {
+			isa = PBXGroup;
+			children = (
+				3D4F9F7D2B2542400097BC91 /* TestHelpers.h */,
+				3D4F9F7E2B2542400097BC91 /* TestMenuItem.m */,
+				3D4F9F7F2B2542400097BC91 /* TestController.cc */,
+				3D4F9F802B2542400097BC91 /* TestFile.h */,
+				3D4F9F812B2542400097BC91 /* TestBridge.mm */,
+				3D4F9F822B2542400097BC91 /* MxTest.h */,
+				3D4F9F832B2542400097BC91 /* TestNoteFactory.h */,
+				3D4F9F842B2542400097BC91 /* RoundTrip.h */,
+				3D4F9F852B2542400097BC91 /* TestMenuItem.h */,
+				3D4F9F862B2542400097BC91 /* MxTest.mm */,
+				3D4F9F892B2542400097BC91 /* TestFileRepository.h */,
+				3D4F9F8A2B2542400097BC91 /* TestFileRepository.mm */,
+				3D4F9F8B2B2542400097BC91 /* TestFile.cc */,
+				3D4F9F8C2B2542400097BC91 /* TestBridge.h */,
+				3D4F9F8D2B2542400097BC91 /* TestController.h */,
+				3D4F9F8E2B2542400097BC91 /* TestControl.h */,
+			);
+			path = TestSupport;
+			sourceTree = "<group>";
+		};
+		3D4F9FD02B25480B0097BC91 /* MacOS */ = {
+			isa = PBXGroup;
+			children = (
+				3D4F9FD22B25480B0097BC91 /* AppDelegate.h */,
+				3D4F9FDD2B25480B0097BC91 /* AppDelegate.mm */,
+				3D4F9FD82B25480B0097BC91 /* Assets.xcassets */,
+				3D4F9FDF2B25480B0097BC91 /* Directories.h */,
+				3D4F9FE02B25480B0097BC91 /* Directories.mm */,
+				3D4F9FE22B25480B0097BC91 /* Info.plist */,
+				3D4F9FDB2B25480B0097BC91 /* main.mm */,
+				3D4F9FE32B25480B0097BC91 /* ScoreDocumentCocoa.h */,
+				3D4F9FDA2B25480B0097BC91 /* ScoreDocumentCocoa.mm */,
+				3D4F9FDE2B25480B0097BC91 /* ScoreDocumentController.h */,
+				3D4F9FD92B25480B0097BC91 /* ScoreDocumentController.m */,
+				3D4F9FE12B25480B0097BC91 /* ScoreManager.cc */,
+				3D4F9FD42B25480B0097BC91 /* ScoreManager.h */,
+				3D4F9FD32B25480B0097BC91 /* ScoreViewCocoa.h */,
+				3D4F9FD52B25480B0097BC91 /* ScoreViewCocoa.mm */,
+				3D4F9FDC2B25480B0097BC91 /* TestApp_Prefix.pch */,
+				3D4F9FD12B25480B0097BC91 /* TestApp-Bridging-Header.h */,
+				3D4F9FD72B25480B0097BC91 /* TestApp.entitlements */,
+				3D4FA0202B254E980097BC91 /* Info.plist */,
+				3D4FA01D2B254D3F0097BC91 /* MainMenu.xib */,
+				3D4F9FD62B25480B0097BC91 /* ScoreDocumentCocoa.xib */,
+			);
+			name = MacOS;
+			path = App/MacOS;
+			sourceTree = "<group>";
+		};
+		3D4F9FEE2B2548610097BC91 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3D4FA02E2B254FF80097BC91 /* Config */,
+				3D4F9FFB2B2548610097BC91 /* Fonts */,
+			);
+			path = Resources;
+			sourceTree = SOURCE_ROOT;
+		};
+		3D4F9FFB2B2548610097BC91 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				3D4F9FFC2B2548610097BC91 /* bravura-1.18 */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		3D4F9FFC2B2548610097BC91 /* bravura-1.18 */ = {
+			isa = PBXGroup;
+			children = (
+				3D4F9FFD2B2548610097BC91 /* bravura_metadata.json */,
+				3D4F9FFE2B2548610097BC91 /* classes.json */,
+				3D4F9FFF2B2548610097BC91 /* ranges.json */,
+				3D4FA0002B2548610097BC91 /* glyphnames.json */,
+				3D4FA0012B2548610097BC91 /* BravuraText.otf */,
+				3D4FA0022B2548610097BC91 /* .gitattributes */,
+				3D4FA0032B2548610097BC91 /* Bravura.otf */,
+			);
+			path = "bravura-1.18";
+			sourceTree = "<group>";
+		};
 		3D8BA29329DDE0D600659045 /* MacOs */ = {
 			isa = PBXGroup;
 			children = (
@@ -2801,20 +3224,6 @@
 			path = XUIKit;
 			sourceTree = "<group>";
 		};
-		3DAF559F1D76CC160088C6AF /* FrameworksOSX */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = FrameworksOSX;
-			sourceTree = "<group>";
-		};
-		3DAF576A1D76CD2F0088C6AF /* FrameworksiOS */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = FrameworksiOS;
-			sourceTree = "<group>";
-		};
 		3DC32BA1200E78BD00D1303F /* XUIKit */ = {
 			isa = PBXGroup;
 			children = (
@@ -2836,6 +3245,7 @@
 				3DC6901F1D76B50E0053057F /* NotationiOS */,
 				3D17D6D11D76BF7B007B6C67 /* NotationOSX */,
 				3D4F9E9F2B23FDFA0097BC91 /* NotationLinux */,
+				3D4F9EB52B253D1F0097BC91 /* TestApp */,
 				3DC68D641D76B3DA0053057F /* Products */,
 				0475BDCFDA002412755FC12B /* Frameworks */,
 			);
@@ -2849,6 +3259,7 @@
 				291DB68D244BA4130051787B /* NotationUnitTests */,
 				3D8BA28829DDDE9A00659045 /* NotationLinux.framework */,
 				3D95F1622AA25567005D33D9 /* libNotationLibiOS.a */,
+				3D4F9EB42B253D1F0097BC91 /* TestApp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -4210,6 +4621,29 @@
 			productReference = 3D17D6D01D76BF7B007B6C67 /* NotationOSX.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		3D4F9EB32B253D1F0097BC91 /* TestApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D4F9EC22B253D210097BC91 /* Build configuration list for PBXNativeTarget "TestApp" */;
+			buildPhases = (
+				3D4F9EB02B253D1F0097BC91 /* Sources */,
+				3D4F9EB12B253D1F0097BC91 /* Frameworks */,
+				3D4F9EB22B253D1F0097BC91 /* Resources */,
+				3D4FA0132B254AAA0097BC91 /* Copy Fonts */,
+				3D4FA0172B254B330097BC91 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3D4F9F292B25408A0097BC91 /* PBXTargetDependency */,
+			);
+			name = TestApp;
+			packageProductDependencies = (
+				3D4FA01A2B254BFA0097BC91 /* ZipArchive */,
+			);
+			productName = TestApp;
+			productReference = 3D4F9EB42B253D1F0097BC91 /* TestApp.app */;
+			productType = "com.apple.product-type.application";
+		};
 		3D8BA08A29DDDE9A00659045 /* NotationLinux */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3D8BA28529DDDE9A00659045 /* Build configuration list for PBXNativeTarget "NotationLinux" */;
@@ -4270,6 +4704,7 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = YES;
+				LastSwiftUpdateCheck = 1500;
 				LastUpgradeCheck = 1500;
 				ORGANIZATIONNAME = semitone;
 				TargetAttributes = {
@@ -4278,6 +4713,10 @@
 					};
 					3D17D6CF1D76BF7B007B6C67 = {
 						CreatedOnToolsVersion = 8.0;
+					};
+					3D4F9EB32B253D1F0097BC91 = {
+						CreatedOnToolsVersion = 15.0.1;
+						LastSwiftMigration = 1500;
 					};
 					3D95F1612AA25567005D33D9 = {
 						CreatedOnToolsVersion = 15.0;
@@ -4298,6 +4737,9 @@
 				Base,
 			);
 			mainGroup = 3DC68D591D76B3DA0053057F;
+			packageReferences = (
+				3D4FA0192B254BFA0097BC91 /* XCRemoteSwiftPackageReference "ZipArchive" */,
+			);
 			productRefGroup = 3DC68D641D76B3DA0053057F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -4307,6 +4749,7 @@
 				3D17D6CF1D76BF7B007B6C67 /* NotationOSX */,
 				3D95F1612AA25567005D33D9 /* NotationLibiOS */,
 				291DB68C244BA4130051787B /* NotationUnitTests */,
+				3D4F9EB32B253D1F0097BC91 /* TestApp */,
 			);
 		};
 /* End PBXProject section */
@@ -4316,6 +4759,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D4F9EB22B253D1F0097BC91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D4F9FE62B25480B0097BC91 /* Assets.xcassets in Resources */,
+				3D4FA01E2B254D3F0097BC91 /* MainMenu.xib in Resources */,
+				3D4FA02F2B254FF80097BC91 /* Config in Resources */,
+				3D4FA00C2B2548610097BC91 /* bravura_metadata.json in Resources */,
+				3D4F9FE52B25480B0097BC91 /* ScoreDocumentCocoa.xib in Resources */,
+				3D4FA00F2B2548610097BC91 /* glyphnames.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -4579,6 +5035,77 @@
 				29447F9F1EBA72CE00B26B7B /* LineSpanner.cc in Sources */,
 				2916857E1EB9368000EEB492 /* FlipStemCommand.cc in Sources */,
 				29139AE01DDACA590053A301 /* Score.cc in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D4F9EB02B253D1F0097BC91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D4F9FE72B25480B0097BC91 /* ScoreDocumentController.m in Sources */,
+				3D4F9FBA2B2542410097BC91 /* FileLoadResultTest.cc in Sources */,
+				3D4F9FBB2B2542410097BC91 /* PasteTest.cc in Sources */,
+				3D4F9FC72B2542410097BC91 /* TestBridge.mm in Sources */,
+				3D4F9FB32B2542410097BC91 /* PitchInfoTest.cc in Sources */,
+				3D4F9FCA2B2542410097BC91 /* TestFileRepository.mm in Sources */,
+				3D4F9F942B2542410097BC91 /* BeamedNoteTest.cc in Sources */,
+				3D4F9FAA2B2542410097BC91 /* MxSlurTest.cc in Sources */,
+				3D4F9FE42B25480B0097BC91 /* ScoreViewCocoa.mm in Sources */,
+				3D4F9FC62B2542410097BC91 /* TestController.cc in Sources */,
+				3D4F9FB12B2542410097BC91 /* BarlineTest.cc in Sources */,
+				3D4F9FA52B2542410097BC91 /* BeamLineTest.cc in Sources */,
+				3D4F9FC82B2542410097BC91 /* MxTest.mm in Sources */,
+				3D4F9FA72B2542410097BC91 /* BeamSpecTest.cc in Sources */,
+				3D4F9FEB2B25480B0097BC91 /* Directories.mm in Sources */,
+				3D4F9FA02B2542410097BC91 /* MarkPositionTest.cc in Sources */,
+				3D4F9FBC2B2542410097BC91 /* AttachedItemTest.cc in Sources */,
+				3D4F9FAF2B2542410097BC91 /* ChordSymbolValueTest.cc in Sources */,
+				3D4F9FB92B2542410097BC91 /* CurveTest.cc in Sources */,
+				3D4F9FC42B2542410097BC91 /* KeySignatureTest.cc in Sources */,
+				3D4F9FA22B2542410097BC91 /* BeamFactoryTest.cc in Sources */,
+				3D4F9FBD2B2542410097BC91 /* BeamTest.cc in Sources */,
+				3D4F9FBE2B2542410097BC91 /* BombeTest.cc in Sources */,
+				3D4F9FB82B2542410097BC91 /* NoteTest.cc in Sources */,
+				3D4F9FBF2B2542410097BC91 /* ChordSymbolTest.cc in Sources */,
+				3D4F9F9E2B2542410097BC91 /* LordChordTest.cc in Sources */,
+				3D4F9FB62B2542410097BC91 /* InstrumentTest.cc in Sources */,
+				3D4F9FEA2B25480B0097BC91 /* AppDelegate.mm in Sources */,
+				3D4F9F9F2B2542410097BC91 /* ChordHeadTest.cc in Sources */,
+				3D4F9F8F2B2542410097BC91 /* cpulFailure.cpp in Sources */,
+				3D4F9F9C2B2542410097BC91 /* MxMarkTest.cc in Sources */,
+				3D4F9FA82B2542410097BC91 /* BeamSaveTest.cc in Sources */,
+				3D4F9FA12B2542410097BC91 /* TempoValueTest.cc in Sources */,
+				3D4F9F962B2542410097BC91 /* MxConversionsTest.cc in Sources */,
+				3D4F9FC12B2542410097BC91 /* ChordTest.cc in Sources */,
+				3D4F9F9A2B2542410097BC91 /* BracketTest.cc in Sources */,
+				3D4F9FC32B2542410097BC91 /* MxTimeSignatureTest.cc in Sources */,
+				3D4F9F952B2542410097BC91 /* MxStemTest.cc in Sources */,
+				3D4F9FAB2B2542410097BC91 /* MxClefTest.cc in Sources */,
+				3D4F9F9D2B2542410097BC91 /* LoadAllFilesTest.cc in Sources */,
+				3D4F9FA92B2542410097BC91 /* MxDynamicsTest.cc in Sources */,
+				3D4F9FC22B2542410097BC91 /* TestScores.cc in Sources */,
+				3D4F9F922B2542410097BC91 /* cpulTestResult.cpp in Sources */,
+				3D4F9FAE2B2542410097BC91 /* StaffTest.cc in Sources */,
+				3D4F9FB42B2542410097BC91 /* SevereTortureTest.cc in Sources */,
+				3D4F9FA32B2542410097BC91 /* TupletTest.cc in Sources */,
+				3D4F9F932B2542410097BC91 /* MxDirectionTest.cc in Sources */,
+				3D4F9FE82B25480B0097BC91 /* ScoreDocumentCocoa.mm in Sources */,
+				3D4F9FC52B2542410097BC91 /* TestMenuItem.m in Sources */,
+				3D4F9FC02B2542410097BC91 /* FermataTest.cc in Sources */,
+				3D4F9F982B2542410097BC91 /* BeatGroupingTest.cc in Sources */,
+				3D4F9FE92B25480B0097BC91 /* main.mm in Sources */,
+				3D4F9F902B2542410097BC91 /* cpulTestRegistry.cpp in Sources */,
+				3D4F9FCB2B2542410097BC91 /* TestFile.cc in Sources */,
+				3D4F9FAD2B2542410097BC91 /* MeasureTest.cc in Sources */,
+				3D4F9FB02B2542410097BC91 /* RawAccidentalTest.cc in Sources */,
+				3D4F9F912B2542410097BC91 /* cpulTest.cpp in Sources */,
+				3D4F9FB52B2542410097BC91 /* ThreadingTest.mm in Sources */,
+				3D4F9FEC2B25480B0097BC91 /* ScoreManager.cc in Sources */,
+				3D4F9F992B2542410097BC91 /* ChordSymbolRepository.cc in Sources */,
+				3D4F9F972B2542410097BC91 /* SpatialPointTest.cc in Sources */,
+				3D4F9FAC2B2542410097BC91 /* TimeMapTest.cc in Sources */,
+				3D4F9FA42B2542410097BC91 /* PlaybackNoteTest.cc in Sources */,
+				3D4F9FB22B2542410097BC91 /* InstrumentConfigTest.cc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -5298,6 +5825,11 @@
 			target = 3D8BA08A29DDDE9A00659045 /* NotationLinux */;
 			targetProxy = 3D4EC67D29E0AC2B00145A7A /* PBXContainerItemProxy */;
 		};
+		3D4F9F292B25408A0097BC91 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3D17D6CF1D76BF7B007B6C67 /* NotationOSX */;
+			targetProxy = 3D4F9F282B25408A0097BC91 /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
@@ -5325,7 +5857,7 @@
 					/opt/homebrew/include,
 				);
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path";
-				MACOSX_DEPLOYMENT_TARGET = 13.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 			};
@@ -5357,7 +5889,7 @@
 					/opt/homebrew/include,
 				);
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path";
-				MACOSX_DEPLOYMENT_TARGET = 13.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 			};
@@ -5372,8 +5904,8 @@
 				CLANG_WARN_ASSIGN_ENUM = YES;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = NO;
 				CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION = NO;
-				CODE_SIGN_IDENTITY = "";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEAD_CODE_STRIPPING = YES;
 				DEFINES_MODULE = NO;
@@ -5417,6 +5949,130 @@
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
+		};
+		3D4F9EC02B253D210097BC91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_ENTITLEMENTS = TestApp/App/MacOS/TestApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RRS55ZY6E5;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_PREPROCESSOR_DEFINITIONS = "KOMP_BUILD_APPLE=1";
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GENERATE_INFOPLIST_FILE = YES;
+				HEADER_SEARCH_PATHS = (
+					$PROJECT_DIR/Frameworks,
+					$PROJECT_DIR/Frameworks/json/include/,
+					$PROJECT_DIR/Frameworks/FrameworksApple/boost/include,
+					"$PROJECT_DIR/Notation-Sourcecode/**",
+					$PROJECT_DIR/Frameworks/phmap,
+					"$PROJECT_DIR/Notation-Sourcecode",
+					$PROJECT_DIR/TestApp,
+					"$PROJECT_DIR/Frameworks/FrameworksApple/Mx.xcframework/macos-arm64_x86_64/MxmacOS.framework/Resources",
+				);
+				INFOPLIST_FILE = TestApp/App/MacOS/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.music";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2023 semitone. All rights reserved.";
+				INFOPLIST_KEY_NSMainNibFile = MainMenu;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.semitone.TestApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "TestApp/TestApp-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		3D4F9EC12B253D210097BC91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_ENTITLEMENTS = TestApp/App/MacOS/TestApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = RRS55ZY6E5;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"KOMP_BUILD_APPLE=1",
+				);
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GENERATE_INFOPLIST_FILE = YES;
+				HEADER_SEARCH_PATHS = (
+					$PROJECT_DIR/Frameworks,
+					$PROJECT_DIR/Frameworks/json/include/,
+					$PROJECT_DIR/Frameworks/FrameworksApple/boost/include,
+					"$PROJECT_DIR/Notation-Sourcecode/**",
+					$PROJECT_DIR/Frameworks/phmap,
+					"$PROJECT_DIR/Notation-Sourcecode",
+					$PROJECT_DIR/TestApp,
+					"$PROJECT_DIR/Frameworks/FrameworksApple/Mx.xcframework/macos-arm64_x86_64/MxmacOS.framework/Resources",
+				);
+				INFOPLIST_FILE = TestApp/App/MacOS/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.music";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2023 semitone. All rights reserved.";
+				INFOPLIST_KEY_NSMainNibFile = MainMenu;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.semitone.TestApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "TestApp/TestApp-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
 		};
 		3D8BA28629DDDE9A00659045 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -5823,8 +6479,8 @@
 				CLANG_WARN_ASSIGN_ENUM = YES;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = NO;
 				CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION = NO;
-				CODE_SIGN_IDENTITY = "";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEAD_CODE_STRIPPING = YES;
 				DEFINES_MODULE = NO;
@@ -5890,6 +6546,15 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		3D4F9EC22B253D210097BC91 /* Build configuration list for PBXNativeTarget "TestApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D4F9EC02B253D210097BC91 /* Release */,
+				3D4F9EC12B253D210097BC91 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		3D8BA28529DDDE9A00659045 /* Build configuration list for PBXNativeTarget "NotationLinux" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -5927,6 +6592,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3D4FA0192B254BFA0097BC91 /* XCRemoteSwiftPackageReference "ZipArchive" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ZipArchive/ZipArchive";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.5.5;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3D4FA01A2B254BFA0097BC91 /* ZipArchive */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3D4FA0192B254BFA0097BC91 /* XCRemoteSwiftPackageReference "ZipArchive" */;
+			productName = ZipArchive;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 3DC68D5A1D76B3DA0053057F /* Project object */;
 }

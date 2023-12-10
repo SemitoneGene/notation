@@ -1,0 +1,413 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="22146" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+    <dependencies>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="22146"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="NSApplication">
+            <connections>
+                <outlet property="delegate" destination="Voe-Tx-rLC" id="UEa-RA-fLR"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <customObject id="Voe-Tx-rLC" customClass="AppDelegate"/>
+        <customObject id="YLy-65-1bz" customClass="NSFontManager"/>
+        <menu title="Main Menu" systemMenu="main" id="AYu-sK-qS6">
+            <items>
+                <menuItem title="Komp" id="1Xt-HY-uBw">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <menu key="submenu" title="Komp" systemMenu="apple" id="uQy-DD-JDr">
+                        <items>
+                            <menuItem title="About Komp" id="5kV-Vb-QxS">
+                                <modifierMask key="keyEquivalentModifierMask"/>
+                                <connections>
+                                    <action selector="orderFrontStandardAboutPanel:" target="-1" id="Exp-CZ-Vem"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem isSeparatorItem="YES" id="VOq-y0-SEH"/>
+                            <menuItem title="Preferences…" keyEquivalent="," id="BOF-NM-1cW"/>
+                            <menuItem isSeparatorItem="YES" id="wFC-TO-SCJ"/>
+                            <menuItem title="Services" id="NMo-om-nkz">
+                                <modifierMask key="keyEquivalentModifierMask"/>
+                                <menu key="submenu" title="Services" systemMenu="services" id="hz9-B4-Xy5"/>
+                            </menuItem>
+                            <menuItem isSeparatorItem="YES" id="4je-JR-u6R"/>
+                            <menuItem title="Hide Komp" keyEquivalent="h" id="Olw-nP-bQN">
+                                <connections>
+                                    <action selector="hide:" target="-1" id="PnN-Uc-m68"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="Hide Others" keyEquivalent="h" id="Vdr-fp-XzO">
+                                <modifierMask key="keyEquivalentModifierMask" option="YES" command="YES"/>
+                                <connections>
+                                    <action selector="hideOtherApplications:" target="-1" id="VT4-aY-XCT"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="Show All" id="Kd2-mp-pUS">
+                                <modifierMask key="keyEquivalentModifierMask"/>
+                                <connections>
+                                    <action selector="unhideAllApplications:" target="-1" id="Dhg-Le-xox"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem isSeparatorItem="YES" id="kCx-OE-vgT"/>
+                            <menuItem title="Quit Komp" keyEquivalent="q" id="4sb-4s-VLi">
+                                <connections>
+                                    <action selector="terminate:" target="-1" id="Te7-pn-YzF"/>
+                                </connections>
+                            </menuItem>
+                        </items>
+                    </menu>
+                </menuItem>
+                <menuItem title="File" id="dMs-cI-mzQ">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <menu key="submenu" title="File" id="bib-Uj-vzu">
+                        <items>
+                            <menuItem title="New" keyEquivalent="n" id="Was-JA-tGl">
+                                <connections>
+                                    <action selector="newDocument:" target="-1" id="4Si-XN-c54"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="New Default Score" keyEquivalent="N" id="scZ-Yd-1Cs"/>
+                            <menuItem isSeparatorItem="YES" id="STH-gv-mC3"/>
+                            <menuItem title="Open…" keyEquivalent="o" id="IAo-SY-fd9">
+                                <connections>
+                                    <action selector="openDocument:" target="-1" id="bVn-NM-KNZ"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="Open Recent" id="tXI-mr-wws">
+                                <modifierMask key="keyEquivalentModifierMask"/>
+                                <menu key="submenu" title="Open Recent" systemMenu="recentDocuments" id="oas-Oc-fiZ">
+                                    <items>
+                                        <menuItem title="Clear Menu" id="vNY-rz-j42">
+                                            <modifierMask key="keyEquivalentModifierMask"/>
+                                            <connections>
+                                                <action selector="clearRecentDocuments:" target="-1" id="Daa-9d-B3U"/>
+                                            </connections>
+                                        </menuItem>
+                                    </items>
+                                </menu>
+                            </menuItem>
+                            <menuItem isSeparatorItem="YES" id="m54-Is-iLE"/>
+                            <menuItem title="Close" keyEquivalent="w" id="DVo-aG-piG">
+                                <connections>
+                                    <action selector="performClose:" target="-1" id="HmO-Ls-i7Q"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem isSeparatorItem="YES" id="uWC-Ss-YmB"/>
+                            <menuItem title="Save…" keyEquivalent="s" id="pxx-59-PXV">
+                                <connections>
+                                    <action selector="saveDocument:" target="-1" id="teZ-XB-qJY"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="Save As…" keyEquivalent="S" id="Bw7-FT-i3A">
+                                <connections>
+                                    <action selector="saveDocumentAs:" target="-1" id="mDf-zr-I0C"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="Revert to Saved" id="KaW-ft-85H">
+                                <modifierMask key="keyEquivalentModifierMask"/>
+                                <connections>
+                                    <action selector="revertDocumentToSaved:" target="-1" id="iJ3-Pv-kwq"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem isSeparatorItem="YES" id="aJh-i4-bef"/>
+                            <menuItem title="Page Setup…" keyEquivalent="P" id="qIS-W8-SiK">
+                                <modifierMask key="keyEquivalentModifierMask" shift="YES" command="YES"/>
+                                <connections>
+                                    <action selector="runPageLayout:" target="-1" id="Din-rz-gC5"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="Print…" keyEquivalent="p" id="aTl-1u-JFS">
+                                <connections>
+                                    <action selector="printDocument:" target="-1" id="qaZ-4w-aoO"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="Print Selection" id="4Su-dr-3Js">
+                                <modifierMask key="keyEquivalentModifierMask"/>
+                            </menuItem>
+                        </items>
+                    </menu>
+                </menuItem>
+                <menuItem title="Edit" id="5QF-Oa-p0T">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <menu key="submenu" title="Edit" id="W48-6f-4Dl">
+                        <items>
+                            <menuItem title="Undo" keyEquivalent="z" id="dRJ-4n-Yzg">
+                                <connections>
+                                    <action selector="kompUndo:" target="-1" id="VAK-7A-5ob"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="Redo" keyEquivalent="Z" id="6dh-zS-Vam">
+                                <connections>
+                                    <action selector="kompRedo:" target="-1" id="C43-aM-s7H"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem isSeparatorItem="YES" id="WRV-NI-Exz"/>
+                            <menuItem title="Cut" keyEquivalent="x" id="uRl-iY-unG">
+                                <connections>
+                                    <action selector="cut:" target="-1" id="YJe-68-I9s"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="Copy" keyEquivalent="c" id="x3v-GG-iWU">
+                                <connections>
+                                    <action selector="copy:" target="-1" id="G1f-GL-Joy"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="Paste" keyEquivalent="v" id="gVA-U4-sdL">
+                                <connections>
+                                    <action selector="paste:" target="-1" id="UvS-8e-Qdg"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="Delete" id="M6O-Gu-3t9">
+                                <string key="keyEquivalent" base64-UTF8="YES">
+CA
+</string>
+                                <connections>
+                                    <action selector="deleteSelection:" target="-1" id="sR0-ho-nMU"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem isSeparatorItem="YES" id="hEP-uY-EN3"/>
+                            <menuItem title="Select All" keyEquivalent="a" id="Ruw-6m-B2m">
+                                <connections>
+                                    <action selector="selectAll:" target="-1" id="jzp-Pe-SU3"/>
+                                </connections>
+                            </menuItem>
+                        </items>
+                    </menu>
+                </menuItem>
+                <menuItem title="Score" id="GXT-Nj-a2u" userLabel="Score">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <menu key="submenu" title="Score" id="A11-cP-9sQ">
+                        <items>
+                            <menuItem title="Justify" keyEquivalent="j" id="wSb-K9-5nK" userLabel="Outlines">
+                                <connections>
+                                    <action selector="justify:" target="-1" id="U1A-iN-OsQ"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="Redraw" keyEquivalent="d" id="DTr-bh-Fze">
+                                <connections>
+                                    <action selector="redraw:" target="-1" id="VuB-fF-wRI"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem isSeparatorItem="YES" id="M8m-Wd-E29"/>
+                            <menuItem title="Outlines" keyEquivalent="O" id="IG4-ni-Gdd" userLabel="Outlines">
+                                <connections>
+                                    <action selector="toggleOutlines:" target="-1" id="dDd-Tj-DkX"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="Item Times" keyEquivalent="T" id="NDz-OC-YAx">
+                                <connections>
+                                    <action selector="toggleItemTimes:" target="-1" id="QjX-Ce-7yn"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem isSeparatorItem="YES" id="qug-lT-UVz"/>
+                            <menuItem title="Play" keyEquivalent="p" id="Cv9-Db-RwC">
+                                <modifierMask key="keyEquivalentModifierMask" option="YES"/>
+                                <connections>
+                                    <action selector="play:" target="-1" id="GwR-Yr-NM5"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="Stop" keyEquivalent="s" id="3vC-gz-JNC">
+                                <modifierMask key="keyEquivalentModifierMask" option="YES"/>
+                                <connections>
+                                    <action selector="stop:" target="-1" id="rAI-zZ-wAW"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="Rewind" keyEquivalent="r" id="jse-Dk-vnH">
+                                <modifierMask key="keyEquivalentModifierMask" control="YES"/>
+                                <connections>
+                                    <action selector="rewind:" target="-1" id="HOv-Y3-TIr"/>
+                                </connections>
+                            </menuItem>
+                        </items>
+                    </menu>
+                </menuItem>
+                <menuItem title="Windows" id="YUf-i3-WGH" userLabel="Windows">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <menu key="submenu" title="Windows" id="bpY-y0-gQK">
+                        <items>
+                            <menuItem title="Console" keyEquivalent="C" id="KPO-af-6yN">
+                                <connections>
+                                    <action selector="showConsoleWindow:" target="-1" id="EMy-UA-pve"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="Keyboard" keyEquivalent="K" id="ZPD-ZG-x8l">
+                                <connections>
+                                    <action selector="showKeyboardWindow:" target="-1" id="2gP-yd-IpA"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="Mixer" keyEquivalent="M" id="ER2-b6-B1y">
+                                <connections>
+                                    <action selector="showMixerWindow:" target="-1" id="Kwv-60-nGY"/>
+                                </connections>
+                            </menuItem>
+                        </items>
+                    </menu>
+                </menuItem>
+                <menuItem title="Debug" id="1iM-UL-xEI">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <menu key="submenu" title="Debug" id="ta6-sQ-WQ2">
+                        <items>
+                            <menuItem title="Run Tests" keyEquivalent="R" id="LjL-W5-kBX" userLabel="Run Tests">
+                                <connections>
+                                    <action selector="runTests:" target="-1" id="9KV-uH-yTf"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="Run Fast Tests" keyEquivalent="r" id="YXe-QI-yQK">
+                                <connections>
+                                    <action selector="runFastTests:" target="-1" id="U6E-DK-4AT"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem isSeparatorItem="YES" id="FvZ-la-rPq"/>
+                            <menuItem title="Mx Test" id="6S0-ES-Kcm">
+                                <modifierMask key="keyEquivalentModifierMask"/>
+                                <connections>
+                                    <action selector="runMxTests:" target="-1" id="MHq-ix-oWc"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="Mx Roundtrip" id="Er9-Rw-ObZ">
+                                <modifierMask key="keyEquivalentModifierMask"/>
+                                <connections>
+                                    <action selector="runMxRoundtripTest:" target="-1" id="KPW-z7-PP5"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem isSeparatorItem="YES" id="gHq-jy-DJo"/>
+                            <menuItem title="AttachedItem Scores" keyEquivalent="a" id="oaK-KP-sgx" userLabel="AttachedItem Scores" customClass="TestMenuItem">
+                                <modifierMask key="keyEquivalentModifierMask" control="YES" option="YES" command="YES"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="name" value="AttachedItemTest"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="displayNamedScores:" target="-1" id="Zln-aU-O0A"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="Beam Score" keyEquivalent="b" id="kY7-NK-b4C" customClass="TestMenuItem">
+                                <modifierMask key="keyEquivalentModifierMask" control="YES" option="YES" command="YES"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="name" value="BeamTest"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="displayNamedScores:" target="-1" id="rDg-uR-a9h"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="Bracket Scores" id="hoc-fI-vgz" userLabel="Bracket Scores" customClass="TestMenuItem">
+                                <modifierMask key="keyEquivalentModifierMask"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="name" value="BracketScores"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="displayNamedScores:" target="-1" id="CVw-BS-lrx"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="Chord Scores" keyEquivalent="c" id="uJf-1T-EcD" customClass="TestMenuItem">
+                                <modifierMask key="keyEquivalentModifierMask" control="YES" option="YES" command="YES"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="name" value="ChordScores"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="displayNamedScores:" target="-1" id="5uh-zp-D7r"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="Chord Symbol Scores" id="3eC-mW-uIU" userLabel="ChordSymbol Scores" customClass="TestMenuItem">
+                                <modifierMask key="keyEquivalentModifierMask"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="name" value="ChordSymbolScores"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="displayNamedScores:" target="-1" id="RV3-6e-c7d"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="Curve Scores" keyEquivalent="z" id="Yhg-IR-4nk" userLabel="Curve Scores" customClass="TestMenuItem">
+                                <modifierMask key="keyEquivalentModifierMask" control="YES" option="YES" command="YES"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="name" value="CurveScores"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="displayNamedScores:" target="-1" id="GBs-1P-Ahx"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="Fermata Score" keyEquivalent="f" id="Isu-ot-mh4" userLabel="Fermata Test Score" customClass="TestMenuItem">
+                                <modifierMask key="keyEquivalentModifierMask" control="YES" option="YES" command="YES"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="name" value="FermataTest"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="displayNamedScores:" target="-1" id="KCU-sO-Xcf"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="Mx Stem Scores" id="4Nh-7p-VoG" customClass="TestMenuItem">
+                                <modifierMask key="keyEquivalentModifierMask"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="name" value="MxStemScores"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="displayNamedScores:" target="-1" id="2XJ-SN-UJN"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="Mx Wedge Score" keyEquivalent="w" id="kW3-JD-vOx" customClass="TestMenuItem">
+                                <modifierMask key="keyEquivalentModifierMask" control="YES" option="YES" command="YES"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="name" value="MxWedgeScore"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="displayNamedScores:" target="-1" id="oeI-fs-Iww"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="Tuplet Scores" keyEquivalent="t" id="bp5-Uc-TNy" userLabel="Tuplet Scores" customClass="TestMenuItem">
+                                <modifierMask key="keyEquivalentModifierMask" control="YES" option="YES" command="YES"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="name" value="TupletScores"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="displayNamedScores:" target="-1" id="N5r-qb-JZp"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem isSeparatorItem="YES" id="Br3-xb-4Cq"/>
+                            <menuItem title="Beam Save" id="Hcs-ps-ekm" userLabel="Beam Save" customClass="TestMenuItem">
+                                <modifierMask key="keyEquivalentModifierMask"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="name" value="BeamSaveTest"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="displayNamedScores:" target="-1" id="LWl-3A-zHq"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem isSeparatorItem="YES" id="SH7-C1-CrE"/>
+                            <menuItem title="Note Spacer" id="i6m-Hx-5hx" userLabel="Note Spacer" customClass="TestMenuItem">
+                                <modifierMask key="keyEquivalentModifierMask"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="name" value="NoteSpacerScores"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="displayNamedScores:" target="-1" id="1Jy-17-7VF"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem isSeparatorItem="YES" id="KZr-zK-I8j"/>
+                            <menuItem title="Add Dynamic" id="Rbo-b7-IS1">
+                                <modifierMask key="keyEquivalentModifierMask"/>
+                                <connections>
+                                    <action selector="addDynamic:" target="-1" id="RYA-de-o2F"/>
+                                </connections>
+                            </menuItem>
+                        </items>
+                    </menu>
+                </menuItem>
+                <menuItem title="Help" id="wpr-3q-Mcd">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <menu key="submenu" title="Help" systemMenu="help" id="F2S-fz-NVQ">
+                        <items>
+                            <menuItem title="Komp Help" keyEquivalent="?" id="FKE-Sm-Kum">
+                                <connections>
+                                    <action selector="helpVisible:" target="-1" id="y7X-2Q-9no"/>
+                                </connections>
+                            </menuItem>
+                        </items>
+                    </menu>
+                </menuItem>
+            </items>
+            <point key="canvasLocation" x="-1224" y="-378"/>
+        </menu>
+    </objects>
+</document>

@@ -1,0 +1,1092 @@
+{
+    "instruments":[
+        {
+            "name":"Piccolo",
+            "abbreviation":"Pic.",
+            "family":"Woodwinds",
+            "canonicalId":"wind.flutes.flute.piccolo",
+            "staves":[
+                "G"
+            ],
+            "allowableClefs":[
+                "G"
+            ],
+            "transposingClef":"G",
+            "concertClef":"G_8VA",
+            "instrumentBracket":"None",
+            "rangeLow":"D5",
+            "rangeHigh":"C8",
+            "transposition":12
+        },
+        {
+            "name":"Flute",
+            "abbreviation":"Fl.",
+            "family":"Woodwinds",
+            "canonicalId":"wind.flutes.flute",
+            "staves":[
+                "G"
+            ],
+            "allowableClefs":[
+                "G"
+            ],
+            "instrumentBracket":"None",
+            "rangeLow":"C4",
+            "rangeHigh":"D7"
+        },
+        {
+            "name":"Oboe",
+            "abbreviation":"Ob.",
+            "family":"Woodwinds",
+            "canonicalId":"wind.reed.oboe",
+            "staves":[
+                "G"
+            ],
+            "allowableClefs":[
+                "G"
+            ],
+            "instrumentBracket":"None",
+            "rangeLow":"Bb3",
+            "rangeHigh":"A6"
+        },
+        {
+            "name":"English Horn",
+            "abbreviation":"Eng. Hn.",
+            "family":"Woodwinds",
+            "canonicalId":"wind.reed.english-horn",
+            "staves":[
+                "G"
+            ],
+            "allowableClefs":[
+                "G"
+            ],
+            "instrumentBracket":"None",
+            "rangeLow":"E3",
+            "rangeHigh":"C6",
+            "transposition":-7
+        },
+        {
+            "name":"Clarinet",
+            "abbreviation":"Cl.",
+            "family":"Woodwinds",
+            "canonicalId":"wind.reed.clarinet",
+            "staves":[
+                "G"
+            ],
+            "allowableClefs":[
+                "G"
+            ],
+            "instrumentBracket":"None",
+            "rangeLow":"D3",
+            "rangeHigh":"Bb7",
+            "transposition":-2
+        },
+        {
+            "name":"Bass Clarinet",
+            "abbreviation":"B. Cl.",
+            "family":"Woodwinds",
+            "canonicalId":"wind.reed.clarinet.bass",
+            "staves":[
+                "F"
+            ],
+            "allowableClefs":[
+                "F",
+                "G"
+            ],
+            "instrumentBracket":"None",
+            "rangeLow":"Bb2",
+            "rangeHigh":"F5"
+        },
+        {
+            "name":"Bassoon",
+            "abbreviation":"Bsn.",
+            "family":"Woodwinds",
+            "canonicalId":"wind.reed.bassoon",
+            "staves":[
+                "F"
+            ],
+            "allowableClefs":[
+                "F",
+                "C_LINE4",
+                "G"
+            ],
+            "instrumentBracket":"None",
+            "rangeLow":"Bb2",
+            "rangeHigh":"F5"
+        },
+        {
+            "name":"Contrabassoon",
+            "abbreviation":"Cbsn.",
+            "family":"Woodwinds",
+            "canonicalId":"wind.reed.contrabassoon",
+            "staves":[
+                "F"
+            ],
+            "allowableClefs":[
+                "F",
+                "C_LINE4",
+                "G"
+            ],
+            "instrumentBracket":"None",
+            "rangeLow":"Bb2",
+            "rangeHigh":"F5",
+            "transposition":-12
+        },
+        {
+            "name":"Alto Saxophone",
+            "abbreviation":"A. Sax",
+            "family":"Woodwinds",
+            "canonicalId":"wind.reed.saxophone.alto",
+            "staves":[
+                "G"
+            ],
+            "allowableClefs":[
+                "G"
+            ],
+            "instrumentBracket":"None",
+            "rangeLow":"Db3",
+            "rangeHigh":"Bb6",
+            "transposition":-9
+        },
+        {
+            "name":"Tenor Saxophone",
+            "abbreviation":"T. Sax",
+            "family":"Woodwinds",
+            "canonicalId":"wind.reed.saxophone.tenor",
+            "staves":[
+                "G"
+            ],
+            "allowableClefs":[
+                "G"
+            ],
+            "instrumentBracket":"None",
+            "rangeLow":"Ab2",
+            "rangeHigh":"F5",
+            "transposition":-14
+        },
+        {
+            "name":"Baritone Saxophone",
+            "abbreviation":"B. Sax",
+            "family":"Woodwinds",
+            "canonicalId":"wind.reed.saxophone.baritone",
+            "staves":[
+                "F"
+            ],
+            "allowableClefs":[
+                "F"
+            ],
+            "instrumentBracket":"None",
+            "rangeLow":"Db2",
+            "rangeHigh":"Bb5",
+            "transposition":-21
+        },
+        {
+            "name":"Horn",
+            "abbreviation":"Hrn.",
+            "family":"Brass",
+            "canonicalId":"brass.french-horn",
+            "staves":[
+                "G"
+            ],
+            "allowableClefs":[
+                "G",
+                "F"
+            ],
+            "instrumentBracket":"None",
+            "rangeLow":"B1",
+            "rangeHigh":"F5",
+            "transposition":-7
+        },
+        {
+            "name":"Trumpet",
+            "abbreviation":"Trp.",
+            "family":"Brass",
+            "canonicalId":"brass.trumpet",
+            "staves":[
+                "G"
+            ],
+            "allowableClefs":[
+                "G"
+            ],
+            "instrumentBracket":"None",
+            "rangeLow":"F#3",
+            "rangeHigh":"D6",
+            "transposition":-2
+        },
+        {
+            "name":"Trombone",
+            "abbreviation":"Tbn.",
+            "family":"Brass",
+            "canonicalId":"brass.trombone",
+            "staves":[
+                "F"
+            ],
+            "allowableClefs":[
+                "F",
+                "G",
+                "C_LINE4"
+            ],
+            "instrumentBracket":"None",
+            "rangeLow":"F#3",
+            "rangeHigh":"D6"
+        },
+        {
+            "name":"Tuba",
+            "abbreviation":"Tba.",
+            "family":"Brass",
+            "canonicalId":"brass.tuba",
+            "staves":[
+                "F"
+            ],
+            "allowableClefs":[
+                "F"
+            ],
+            "instrumentBracket":"None",
+            "rangeLow":"D1",
+            "rangeHigh":"F4"
+        },
+        {
+            "name":"Timpani",
+            "abbreviation":"Timp.",
+            "family":"Timpani",
+            "canonicalId":"drum.timpani",
+            "staves":[
+                "F"
+            ],
+            "allowableClefs":[
+                "F"
+            ],
+            "instrumentBracket":"None",
+            "rangeLow":"C2",
+            "rangeHigh":"D4"
+        },
+        {
+            "name":"Xylophone",
+            "abbreviation":"Xyl.",
+            "family":"Keyboard Percussion",
+            "canonicalId":"pitched-percussion.xylophone",
+            "staves":[
+                "G"
+            ],
+            "allowableClefs":[
+                "G"
+            ],
+            "instrumentBracket":"None",
+            "rangeLow":"F4",
+            "rangeHigh":"C8",
+            "transposition":12
+        },
+        {
+            "name":"Marimba",
+            "abbreviation":"Mba.",
+            "family":"Keyboard Percussion",
+            "canonicalId":"pitched-percussion.marimba",
+            "staves":[
+                "G",
+                "F"
+            ],
+            "allowableClefs":[
+                "G",
+                "F"
+            ],
+            "instrumentBracket":"PianoBrace",
+            "rangeLow":"C2",
+            "rangeHigh":"C7"
+        },
+        {
+            "name":"Glockenspiel",
+            "abbreviation":"Glock.",
+            "family":"Keyboard Percussion",
+            "canonicalId":"pitched-percussion.glockenspiel",
+            "staves":[
+                "G"
+            ],
+            "allowableClefs":[
+                "G"
+            ],
+            "instrumentBracket":"None",
+            "rangeLow":"G5",
+            "rangeHigh":"C8"
+        },
+        {
+            "name":"Vibraphone",
+            "abbreviation":"Vib.",
+            "family":"Keyboard Percussion",
+            "canonicalId":"pitched-percussion.vibraphone",
+            "staves":[
+                "G"
+            ],
+            "allowableClefs":[
+                "G"
+            ],
+            "instrumentBracket":"None",
+            "rangeLow":"F3",
+            "rangeHigh":"F6"
+        },
+        {
+            "name":"Chimes",
+            "abbreviation":"Chm.",
+            "family":"Keyboard Percussion",
+            "canonicalId":"metal.bells.chimes",
+            "staves":[
+                "G"
+            ],
+            "allowableClefs":[
+                "G"
+            ],
+            "instrumentBracket":"None",
+            "rangeLow":"C4",
+            "rangeHigh":"F5"
+        },
+        {
+            "name":"Harp",
+            "abbreviation":"Hrp.",
+            "family":"Harp",
+            "canonicalId":"pluck.harp",
+            "staves":[
+                "G",
+                "F"
+            ],
+            "allowableClefs":[
+                "G",
+                "F"
+            ],
+            "instrumentBracket":"PianoBrace",
+            "rangeLow":"Cb1",
+            "rangeHigh":"F#7"
+        },
+        {
+            "name":"Guitar",
+            "abbreviation":"Gtr.",
+            "family":"Keyboard",
+            "canonicalId":"pluck.guitar.acoustic",
+            "staves":[
+                "G"
+            ],
+            "allowableClefs":[
+                "G",
+                "F"
+            ],
+            "instrumentBracket":"None",
+            "rangeLow":"E3",
+            "rangeHigh":"C8"
+        },
+        {
+            "name":"Piano",
+            "abbreviation":"Pno.",
+            "family":"Keyboard",
+            "canonicalId":"keyboard.piano",
+            "staves":[
+                "G",
+                "F"
+            ],
+            "allowableClefs":[
+                "G",
+                "F"
+            ],
+            "instrumentBracket":"PianoBrace",
+            "rangeLow":"A0",
+            "rangeHigh":"C8"
+        },
+        {
+            "name":"Celesta",
+            "abbreviation":"Cst.",
+            "family":"Keyboard",
+            "canonicalId":"keyboard.celesta",
+            "staves":[
+                "G",
+                "F"
+            ],
+            "allowableClefs":[
+                "G",
+                "F"
+            ],
+            "instrumentBracket":"PianoBrace",
+            "rangeLow":"C4",
+            "rangeHigh":"C8",
+            "transposition":12
+        },
+        {
+            "name":"Harpsichord",
+            "abbreviation":"Hps.",
+            "family":"Keyboard",
+            "canonicalId":"keyboard.harpsichord",
+            "staves":[
+                "G",
+                "F"
+            ],
+            "allowableClefs":[
+                "G",
+                "F"
+            ],
+            "instrumentBracket":"PianoBrace",
+            "rangeLow":"F1",
+            "rangeHigh":"F6"
+        },
+        {
+            "name":"Organ",
+            "abbreviation":"Org.",
+            "family":"Keyboard",
+            "canonicalId":"keyboard.organ",
+            "staves":[
+                "G",
+                "F"
+            ],
+            "allowableClefs":[
+                "G",
+                "F"
+            ],
+            "instrumentBracket":"PianoBrace",
+            "rangeLow":"A0",
+            "rangeHigh":"C8"
+        },
+        {
+            "name":"Violin",
+            "abbreviation":"Vln.",
+            "family":"Strings",
+            "canonicalId":"strings.violin",
+            "staves":[
+                "G"
+            ],
+            "allowableClefs":[
+                "G"
+            ],
+            "instrumentBracket":"None",
+            "rangeLow":"G3",
+            "rangeHigh":"A7"
+        },
+        {
+            "name":"Viola",
+            "abbreviation":"Vla.",
+            "family":"Strings",
+            "canonicalId":"strings.viola",
+            "staves":[
+                "C"
+            ],
+            "allowableClefs":[
+                "C",
+                "G"
+            ],
+            "instrumentBracket":"None",
+            "rangeLow":"C3",
+            "rangeHigh":"E6"
+        },
+        {
+            "name":"Cello",
+            "abbreviation":"Vlc.",
+            "family":"Strings",
+            "canonicalId":"strings.cello",
+            "staves":[
+                "F"
+            ],
+            "allowableClefs":[
+                "F",
+                "G",
+                "C_LINE4"
+            ],
+            "instrumentBracket":"None",
+            "rangeLow":"C2",
+            "rangeHigh":"C5"
+        },
+        {
+            "name":"Bass",
+            "abbreviation":"Db.",
+            "family":"Strings",
+            "canonicalId":"strings.contrabass",
+            "staves":[
+                "F"
+            ],
+            "allowableClefs":[
+                "F",
+                "G",
+                "C_LINE4"
+            ],
+            "instrumentBracket":"None",
+            "rangeLow":"C1",
+            "rangeHigh":"C4",
+            "transposition":-12
+        },
+        {
+            "name":"Vocals",
+            "abbreviation":"Vo.",
+            "family":"Voices",
+            "canonicalId":"voice.vocals",
+            "staves":[
+                "G"
+            ],
+            "allowableClefs":[
+                "G"
+            ],
+            "instrumentBracket":"None",
+            "rangeLow":"D2",
+            "rangeHigh":"G6"
+        },
+        {
+            "name":"Soprano",
+            "abbreviation":"Vo.",
+            "family":"Voices",
+            "canonicalId":"voice.soprano",
+            "staves":[
+                "G"
+            ],
+            "allowableClefs":[
+                "G"
+            ],
+            "instrumentBracket":"None",
+            "rangeLow":"B3",
+            "rangeHigh":"G6"
+        },
+        {
+            "name":"Mezzo-Soprano",
+            "abbreviation":"Mzs.",
+            "family":"Voices",
+            "canonicalId":"voice.mezzo-soprano",
+            "staves":[
+                "G"
+            ],
+            "allowableClefs":[
+                "G"
+            ],
+            "instrumentBracket":"None",
+            "rangeLow":"G3",
+            "rangeHigh":"A5"
+        },
+        {
+            "name":"Alto",
+            "abbreviation":"A.",
+            "family":"Voices",
+            "canonicalId":"voice.alto",
+            "staves":[
+                "G"
+            ],
+            "allowableClefs":[
+                "G"
+            ],
+            "instrumentBracket":"None",
+            "rangeLow":"G3",
+            "rangeHigh":"A5"
+        },
+        {
+            "name":"Tenor",
+            "abbreviation":"T.",
+            "family":"Voices",
+            "canonicalId":"voice.tenor",
+            "staves":[
+                "G_8VB"
+            ],
+            "allowableClefs":[
+                "G_8VB"
+            ],
+            "instrumentBracket":"None",
+            "rangeLow":"C3",
+            "rangeHigh":"B4"
+        },
+        {
+            "name":"Baritone",
+            "abbreviation":"Bar.",
+            "family":"Voices",
+            "canonicalId":"voice.baritone",
+            "staves":[
+                "F"
+            ],
+            "allowableClefs":[
+                "F"
+            ],
+            "instrumentBracket":"None",
+            "rangeLow":"G2",
+            "rangeHigh":"G4"
+        },
+        {
+            "name":"Bass",
+            "abbreviation":"B.",
+            "family":"Voices",
+            "canonicalId":"voice.bass",
+            "staves":[
+                "F"
+            ],
+            "allowableClefs":[
+                "F"
+            ],
+            "instrumentBracket":"None",
+            "rangeLow":"D2",
+            "rangeHigh":"A4"
+        },
+        {
+            "name":"Drumset",
+            "abbreviation":"Drum.",
+            "family":"Unpitched Percussion",
+            "canonicalId":"drum.group.set",
+            "staves":[
+                "PERCUSSION"
+            ],
+            "allowableClefs":[
+                "PERCUSSION"
+            ],
+            "instrumentBracket":"None",
+            "rangeLow":"D2",
+            "rangeHigh":"A4"
+        },
+        {
+            "name":"Snare Drum",
+            "abbreviation":"SD",
+            "family":"Unpitched Percussion",
+            "canonicalId":"drum.snare-drum",
+            "staves":[
+                "PERCUSSION"
+            ],
+            "allowableClefs":[
+                "PERCUSSION"
+            ],
+            "instrumentBracket":"None",
+            "rangeLow":"B4",
+            "rangeHigh":"B4",
+            "staffType":"PERCUSSION",
+            "staffLines":1
+        }
+    ],
+    "instrumentOrders":[
+        {
+            "instrumentOrderName":"Orchestral",
+            "instrumentFamilyNames":[
+                "Woodwinds",
+                "Brass",
+                "Timpani",
+                "Keyboard Percussion",
+                "Unpitched Percussion",
+                "Harp",
+                "Keyboard",
+                "Voices",
+                "Strings"
+            ]
+        },
+        {
+            "instrumentOrderName":"Chamber",
+            "instrumentFamilyNames":[
+                "Woodwinds",
+                "Brass",
+                "Strings",
+                "Timpani",
+                "Keyboard Percussion",
+                "Unpitched Percussion",
+                "Harp",
+                "Keyboard"
+            ]
+        }
+    ],
+    "player-config":[
+        {
+            "collection-name":"KOMP_SOUNDS",
+            "sound-resources":[
+                {
+                    "id":"wind.reed.saxophone.alto",
+                    "path":"/Sounds/Komp/Saxophone/Alto",
+                    "variations" : {
+                        "sustain": "sustain.sfz"
+                    }
+                },
+                {
+                    "id":"wind.reed.saxophone.baritone",
+                    "path":"/Sounds/Komp/Saxophone/Baritone",
+                    "variations" : {
+                        "sustain": "sustain.sfz"
+                    }
+                },
+                {
+                    "id":"wind.reed.clarinet.bass",
+                    "path":"/Sounds/Komp/BassClarinet",
+                    "variations" : {
+                        "accent": "accent.sfz",
+                        "staccato": "staccato.sfz",
+                        "sustain": "sustain.sfz"
+                    }
+                },
+                {
+                    "id":"drum.bass-drum",
+                    "path":"/Sounds/Komp/BassDrum",
+                    "variations" : {
+                        "sustain": "sustain.sfz"
+                    }
+                },
+                {
+                    "id":"pluck.bass.electric",
+                    "path":"/Sounds/Komp/BassGuitar",
+                    "variations" : {
+                        "sustain": "sustain.sfz"
+                    }
+                },
+                {
+                    "id":"wind.reed.bassoon",
+                    "path":"/Sounds/Komp/Bassoon",
+                    "variations" : {
+                        "accent": "accent.sfz",
+                        "staccato": "staccato.sfz",
+                        "sustain": "sustain.sfz"
+                    }
+                },
+                {
+                    "id":"brass.trombone.bass",
+                    "path":"/Sounds/Komp/BassTrombone",
+                    "variations" : {
+                        "accent": "accent.sfz",
+                        "staccato": "staccato.sfz",
+                        "sustain": "sustain.sfz"
+                    }
+                    
+                },
+                {
+                    "id":"metal.bells.bell-tree",
+                    "path":"/Sounds/Komp/BellTree",
+                    "variations" : {
+                        "sustain": "sustain.sfz"
+                    }
+                },
+                {
+                    "id":"rattle.cabasa",
+                    "path":"/Sounds/Komp/Cabasa",
+                    "variations" : {
+                        "sustain": "sustain.sfz"
+                    }
+                },
+                {
+                    "id":"wood.castanets",
+                    "path":"/Sounds/Komp/Castanets",
+                    "variations" : {
+                        "sustain": "sustain.sfz"
+                    }
+                },
+                {
+                    "id":"keyboard.celesta",
+                    "path":"/Sounds/Komp/Celesta",
+                    "variations" : {
+                        "accent": "accent.sfz",
+                        "staccato": "staccato.sfz",
+                        "sustain": "sustain.sfz"
+                    }
+                },
+                {
+                    "id":"strings.cello",
+                    "path":"/Sounds/Komp/Cello",
+                    "variations" : {
+                        "accent": "accent.sfz",
+                        "pizzicato": "pizzicato.sfz",
+                        "staccato": "staccato.sfz",
+                        "sustain": "sustain.sfz"
+                    }
+                },
+                {
+                    "id":"voice.female",
+                    "path":"/Sounds/Komp/ChoirFemale",
+                    "variations" : {
+                        "sustain": "sustain.sfz"
+                    }
+                },
+                {
+                    "id":"voice.male",
+                    "path":"/Sounds/Komp/ChoirMale",
+                    "variations" : {
+                        "sustain": "sustain.sfz"
+                    }
+                },
+                {
+                    "id":"voice.vocals",
+                    "path":"/Sounds/Komp/ChoirMixed",
+                    "variations" : {
+                        "sustain": "sustain.sfz"
+                    }
+                },
+                {
+                    "id":"wind.reed.clarinet",
+                    "path":"/Sounds/Komp/Clarinet",
+                    "variations" : {
+                        "accent": "accent.sfz",
+                        "staccato": "staccato.sfz",
+                        "sustain": "sustain.sfz"
+                    }
+                },
+                {
+                    "id":"wood.claves",
+                    "path":"/Sounds/Komp/Claves",
+                    "variations" : {
+                        "sustain": "sustain.sfz"
+                    }
+                },
+                {
+                    "id":"drum.conga",
+                    "path":"/Sounds/Komp/Congas",
+                    "variations" : {
+                        "sustain": "sustain.sfz"
+                    }
+                },
+                {
+                    "id":"strings.contrabass",
+                    "path":"/Sounds/Komp/Contrabass",
+                    "variations" : {
+                        "accent": "accent.sfz",
+                        "pizzicato": "pizzicato.sfz",
+                        "staccato": "staccato.sfz",
+                        "sustain": "sustain.sfz"
+                    }
+                },
+                {
+                    "id":"wind.reed.contrabassoon",
+                    "path":"/Sounds/Komp/Contrabassoon",
+                    "variations" : {
+                        "accent": "accent.sfz",
+                        "staccato": "staccato.sfz",
+                        "sustain": "sustain.sfz"
+                    }
+                },
+                {
+                    "id":"metal.bells.cowbell",
+                    "path":"/Sounds/Komp/Cowbell",
+                    "variations" : {
+                        "sustain": "sustain.sfz"
+                    }
+                },
+                {
+                    "id":"metal.cymbal.crash",
+                    "path":"/Sounds/Komp/Cymbals",
+                    "variations" : {
+                        "sustain": "sustain.sfz"
+                    }
+                    
+                },
+                {
+                    "id":"drum.group",
+                    "path":"/Sounds/Komp/DrumKit",
+                    "variations" : {
+                        "sustain": "sustain.sfz"
+                    }
+                },
+                {
+                    "id":"wind.reed.english-horn",
+                    "path":"/Sounds/Komp/EnglishHorn",
+                    "variations" : {
+                        "accent": "accent.sfz",
+                        "staccato": "staccato.sfz",
+                        "sustain": "sustain.sfz"
+                    }
+                },
+                {
+                    "id":"wind.flutes.flute",
+                    "path":"/Sounds/Komp/Flute",
+                    "variations" : {
+                        "accent": "accent.sfz",
+                        "staccato": "staccato.sfz",
+                        "sustain": "sustain.sfz"
+                    }
+                },
+                {
+                    "id":"brass.french-horn",
+                    "path":"/Sounds/Komp/FrenchHorn",
+                    "variations" : {
+                        "accent": "accent.sfz",
+                        "staccato": "staccato.sfz",
+                        "sustain": "sustain.sfz"
+                    }
+                },
+                {
+                    "id":"pitched-percussion.glockenspiel",
+                    "path":"/Sounds/Komp/Glockenspiel",
+                    "variations" : {
+                        "sustain": "sustain.sfz"
+                    }
+                },
+                {
+                    "id":"metal.gong",
+                    "path":"/Sounds/Komp/Gong",
+                    "variations" : {
+                        "sustain": "sustain.sfz"
+                    }
+                },
+                {
+                    "id":"pluck.guitar",
+                    "path":"/Sounds/Komp/Guitar",
+                    "variations" : {
+                        "sustain": "sustain.sfz"
+                    }
+                },
+                {
+                    "id":"pluck.harp",
+                    "path":"/Sounds/Komp/Harp",
+                    "variations" : {
+                        "dampened": "dampened.sfz",
+                        "sustain": "sustain.sfz"
+                    }
+                },
+                {
+                    "id":"keyboard.harpsichord",
+                    "path":"/Sounds/Komp/Harpsichord",
+                    "variations" : {
+                        "sustain": "sustain.sfz"
+                    }
+                },
+                {
+                    "id":"pitched-percussion.marimba",
+                    "path":"/Sounds/Komp/Marimba",
+                    "variations" : {
+                        "sustain": "sustain.sfz"
+                    }
+                },
+                {
+                    "id":"wind.reed.oboe",
+                    "path":"/Sounds/Komp/Oboe",
+                    "variations" : {
+                        "accent": "accent.sfz",
+                        "staccato": "staccato.sfz",
+                        "sustain": "sustain.sfz"
+                    }
+                },
+                {
+                    "id":"keyboard.organ",
+                    "path":"/Sounds/Komp/Organ",
+                    "variations" : {
+                        "accent": "accent.sfz",
+                        "staccato": "staccato.sfz",
+                        "sustain": "sustain.sfz"
+                    }
+                },
+                {
+                    "id":"keyboard.piano",
+                    "path":"/Sounds/Komp/Piano",
+                    "variations" : {
+                        "sustain": "sustain.sfz"
+                    }
+                },
+                {
+                    "id":"keyboard.piano.upright",
+                    "path":"/Sounds/Komp/PianoUpright",
+                    "variations" : {
+                        "sustain": "sustain.sfz"
+                    }
+                },
+                {
+                    "id":"wind.flutes.flute.piccolo",
+                    "path":"/Sounds/Komp/Piccolo",
+                    "variations" : {
+                        "accent": "accent.sfz",
+                        "staccato": "staccato.sfz",
+                        "sustain": "sustain.sfz"
+                    }
+                },
+                {
+                    "id":"drum.snare-drum",
+                    "path":"/Sounds/Komp/SnareDrum",
+                    "variations" : {
+                        "sustain": "sustain.sfz"
+                    }
+                },
+                {
+                    "id":"wind.reed.saxophone.tenor",
+                    "path":"/Sounds/Komp/Saxophone/Tenor",
+                    "variations" : {
+                        "accent": "accent.sfz",
+                        "tremolo": "tremolo.sfz",
+                        "pizzicato": "pizzicato.sfz",
+                        "staccato": "staccato.sfz",
+                        "sustain": "sustain.sfz"
+                    }
+                },
+                {
+                    "id":"drum.timpani",
+                    "path":"/Sounds/Komp/Timpani",
+                    "variations" : {
+                        "sustain": "sustain.sfz"
+                    }
+                },
+                {
+                    "id":"metal.triangle",
+                    "path":"/Sounds/Komp/Timpani",
+                    "variations" : {
+                        "sustain": "sustain.sfz"
+                    }
+                },
+                {
+                    "id":"brass.trombone",
+                    "path":"/Sounds/Komp/Trombone",
+                    "variations" : {
+                        "accent": "accent.sfz",
+                        "staccato": "staccato.sfz",
+                        "sustain": "sustain.sfz"
+                    }
+                },
+                {
+                    "id":"brass.trumpet",
+                    "path":"/Sounds/Komp/Trumpet",
+                    "variations" : {
+                        "accent": "accent.sfz",
+                        "staccato": "staccato.sfz",
+                        "sustain": "sustain.sfz"
+                    }
+                },
+                {
+                    "id":"brass.tuba",
+                    "path":"/Sounds/Komp/Tuba",
+                    "variations" : {
+                        "accent": "accent.sfz",
+                        "staccato": "staccato.sfz",
+                        "sustain": "sustain.sfz"
+                    }
+                    
+                },
+                {
+                    "id":"pitched-percussion.tubular-bells",
+                    "path":"/Sounds/Komp/TubularBells",
+                    "variations" : {
+                        "sustain": "sustain.sfz"
+                    }
+                },
+                {
+                    "id":"drum.tumbak",
+                    "path":"/Sounds/Komp/Tumba",
+                    "variations" : {
+                        "sustain": "sustain.sfz"
+                    }
+                },
+                {
+                    "id":"pitched-percussion.vibraphone",
+                    "path":"/Sounds/Komp/Vibraphone",
+                    "variations" : {
+                        "dampened": "dampened.sfz",
+                        "sustain": "sustain.sfz"
+                    }
+                    
+                },
+                {
+                    "id":"rattle.vibraslap",
+                    "path":"/Sounds/Komp/Vibraslap",
+                    "variations" : {
+                        "sustain": "sustain.sfz"
+                    }
+                },
+                {
+                    "id":"strings.viola",
+                    "path":"/Sounds/Komp/Viola",
+                    "variations" : {
+                        "accent": "accent.sfz",
+                        "pizzicato": "pizzicato.sfz",
+                        "staccato": "staccato.sfz",
+                        "sustain": "sustain.sfz"
+                    }
+                },
+                {
+                    "id":"strings.violin",
+                    "path":"/Sounds/Komp/Violin1",
+                    "variations" : {
+                        "accent": "accent.sfz",
+                        "tremolo": "tremolo.sfz",
+                        "pizzicato": "pizzicato.sfz",
+                        "staccato": "staccato.sfz",
+                        "sustain": "sustain.sfz"
+                    }
+                },
+                {
+                    "id":"pitched-percussion.xylophone",
+                    "path":"/Sounds/Komp/Xylophone",
+                    "variations" : {
+                        "sustain": "sustain.sfz"
+                    }
+                }
+            ]
+        }
+    ]
+}
