@@ -1404,6 +1404,36 @@
 		3D8D018520C4B256000D9327 /* Logging.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D8D018220C4B255000D9327 /* Logging.h */; };
 		3D8D018620C4B256000D9327 /* Logging.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3D8D018320C4B256000D9327 /* Logging.cc */; };
 		3D8D018720C4B256000D9327 /* Logging.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3D8D018320C4B256000D9327 /* Logging.cc */; };
+		3D93C2D92B2B1D8200360679 /* xmlvisitor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3D93C2762B2B1D8200360679 /* xmlvisitor.cpp */; };
+		3D93C2DA2B2B1D8200360679 /* clefvisitor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3D93C2772B2B1D8200360679 /* clefvisitor.cpp */; };
+		3D93C2DB2B2B1D8200360679 /* keyvisitor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3D93C27A2B2B1D8200360679 /* keyvisitor.cpp */; };
+		3D93C2DC2B2B1D8200360679 /* partsummary.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3D93C27E2B2B1D8200360679 /* partsummary.cpp */; };
+		3D93C2DD2B2B1D8200360679 /* transposevisitor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3D93C27F2B2B1D8200360679 /* transposevisitor.cpp */; };
+		3D93C2DE2B2B1D8200360679 /* metronomevisitor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3D93C2802B2B1D8200360679 /* metronomevisitor.cpp */; };
+		3D93C2DF2B2B1D8200360679 /* clonevisitor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3D93C2822B2B1D8200360679 /* clonevisitor.cpp */; };
+		3D93C2E02B2B1D8200360679 /* timesignvisitor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3D93C2842B2B1D8200360679 /* timesignvisitor.cpp */; };
+		3D93C2E12B2B1D8200360679 /* keysignvisitor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3D93C2852B2B1D8200360679 /* keysignvisitor.cpp */; };
+		3D93C2E22B2B1D8200360679 /* midicontextvisitor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3D93C2872B2B1D8200360679 /* midicontextvisitor.cpp */; };
+		3D93C2E32B2B1D8200360679 /* notevisitor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3D93C28A2B2B1D8200360679 /* notevisitor.cpp */; };
+		3D93C2E42B2B1D8200360679 /* unrolled_clonevisitor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3D93C28B2B2B1D8200360679 /* unrolled_clonevisitor.cpp */; };
+		3D93C2E52B2B1D8200360679 /* partlistvisitor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3D93C28C2B2B1D8200360679 /* partlistvisitor.cpp */; };
+		3D93C2E62B2B1D8200360679 /* libmusicxml.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3D93C2932B2B1D8200360679 /* libmusicxml.cpp */; };
+		3D93C2ED2B2B1D8200360679 /* transposition.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3D93C2A02B2B1D8200360679 /* transposition.cpp */; };
+		3D93C2EE2B2B1D8200360679 /* musicxmlquery.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3D93C2A22B2B1D8200360679 /* musicxmlquery.cpp */; };
+		3D93C2EF2B2B1D8200360679 /* timePositions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3D93C2A62B2B1D8200360679 /* timePositions.cpp */; };
+		3D93C2F02B2B1D8200360679 /* guido.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3D93C2A72B2B1D8200360679 /* guido.cpp */; };
+		3D93C2F12B2B1D8200360679 /* xmlpart2guido.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3D93C2AA2B2B1D8200360679 /* xmlpart2guido.cpp */; };
+		3D93C2F22B2B1D8200360679 /* xml2guidovisitor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3D93C2AB2B2B1D8200360679 /* xml2guidovisitor.cpp */; };
+		3D93C2F52B2B1D8200360679 /* xml_tree_browser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3D93C2B22B2B1D8200360679 /* xml_tree_browser.cpp */; };
+		3D93C2F62B2B1D8200360679 /* xml.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3D93C2B72B2B1D8200360679 /* xml.cpp */; };
+		3D93C2FE2B2B1D8200360679 /* versions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3D93C2C02B2B1D8200360679 /* versions.cpp */; };
+		3D93C2FF2B2B1D8200360679 /* rational.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3D93C2C32B2B1D8200360679 /* rational.cpp */; };
+		3D93C3002B2B1D8200360679 /* conversions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3D93C2C82B2B1D8200360679 /* conversions.cpp */; };
+		3D93C3022B2B1D8200360679 /* xmlfile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3D93C2D32B2B1D8200360679 /* xmlfile.cpp */; };
+		3D93C3032B2B1D8200360679 /* sortvisitor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3D93C2D52B2B1D8200360679 /* sortvisitor.cpp */; };
+		3D93C3042B2B1D8200360679 /* musicxmlfactory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3D93C2D82B2B1D8200360679 /* musicxmlfactory.cpp */; };
+		3D93C3052B2B218700360679 /* factory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3D93C2BE2B2B1D8200360679 /* factory.cpp */; };
+		3D93C30F2B2B23DE00360679 /* xmlparse.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3D93C30D2B2B23DE00360679 /* xmlparse.cpp */; };
 		3D95F16C2AA25578005D33D9 /* DrawableContext.cc in Sources */ = {isa = PBXBuildFile; fileRef = E2BC42871F363D17006DEAE7 /* DrawableContext.cc */; };
 		3D95F16D2AA2557C005D33D9 /* DrawableLayer.cc in Sources */ = {isa = PBXBuildFile; fileRef = E2DA7BBC2220CEF10012621F /* DrawableLayer.cc */; };
 		3D95F16E2AA2557C005D33D9 /* DrawableLayerFactory.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3D0B1EB3238B55470087A93F /* DrawableLayerFactory.cc */; };
@@ -2512,6 +2542,91 @@
 		3D8BA2B129DDE1BA00659045 /* DrawableContextMacOS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawableContextMacOS.h; sourceTree = "<group>"; };
 		3D8D018220C4B255000D9327 /* Logging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Logging.h; sourceTree = "<group>"; };
 		3D8D018320C4B256000D9327 /* Logging.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Logging.cc; sourceTree = "<group>"; };
+		3D93C2742B2B1D8200360679 /* partlistvisitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = partlistvisitor.h; sourceTree = "<group>"; };
+		3D93C2752B2B1D8200360679 /* clonevisitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = clonevisitor.h; sourceTree = "<group>"; };
+		3D93C2762B2B1D8200360679 /* xmlvisitor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = xmlvisitor.cpp; sourceTree = "<group>"; };
+		3D93C2772B2B1D8200360679 /* clefvisitor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = clefvisitor.cpp; sourceTree = "<group>"; };
+		3D93C2782B2B1D8200360679 /* xmlvisitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xmlvisitor.h; sourceTree = "<group>"; };
+		3D93C2792B2B1D8200360679 /* clefvisitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = clefvisitor.h; sourceTree = "<group>"; };
+		3D93C27A2B2B1D8200360679 /* keyvisitor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = keyvisitor.cpp; sourceTree = "<group>"; };
+		3D93C27B2B2B1D8200360679 /* visitable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = visitable.h; sourceTree = "<group>"; };
+		3D93C27C2B2B1D8200360679 /* transposevisitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = transposevisitor.h; sourceTree = "<group>"; };
+		3D93C27D2B2B1D8200360679 /* unrolled_clonevisitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = unrolled_clonevisitor.h; sourceTree = "<group>"; };
+		3D93C27E2B2B1D8200360679 /* partsummary.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = partsummary.cpp; sourceTree = "<group>"; };
+		3D93C27F2B2B1D8200360679 /* transposevisitor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = transposevisitor.cpp; sourceTree = "<group>"; };
+		3D93C2802B2B1D8200360679 /* metronomevisitor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = metronomevisitor.cpp; sourceTree = "<group>"; };
+		3D93C2812B2B1D8200360679 /* notevisitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = notevisitor.h; sourceTree = "<group>"; };
+		3D93C2822B2B1D8200360679 /* clonevisitor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = clonevisitor.cpp; sourceTree = "<group>"; };
+		3D93C2832B2B1D8200360679 /* partsummary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = partsummary.h; sourceTree = "<group>"; };
+		3D93C2842B2B1D8200360679 /* timesignvisitor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = timesignvisitor.cpp; sourceTree = "<group>"; };
+		3D93C2852B2B1D8200360679 /* keysignvisitor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = keysignvisitor.cpp; sourceTree = "<group>"; };
+		3D93C2862B2B1D8200360679 /* visitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = visitor.h; sourceTree = "<group>"; };
+		3D93C2872B2B1D8200360679 /* midicontextvisitor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = midicontextvisitor.cpp; sourceTree = "<group>"; };
+		3D93C2882B2B1D8200360679 /* metronomevisitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = metronomevisitor.h; sourceTree = "<group>"; };
+		3D93C2892B2B1D8200360679 /* midicontextvisitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = midicontextvisitor.h; sourceTree = "<group>"; };
+		3D93C28A2B2B1D8200360679 /* notevisitor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = notevisitor.cpp; sourceTree = "<group>"; };
+		3D93C28B2B2B1D8200360679 /* unrolled_clonevisitor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = unrolled_clonevisitor.cpp; sourceTree = "<group>"; };
+		3D93C28C2B2B1D8200360679 /* partlistvisitor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = partlistvisitor.cpp; sourceTree = "<group>"; };
+		3D93C28D2B2B1D8200360679 /* timesignvisitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = timesignvisitor.h; sourceTree = "<group>"; };
+		3D93C28E2B2B1D8200360679 /* keysignvisitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = keysignvisitor.h; sourceTree = "<group>"; };
+		3D93C28F2B2B1D8200360679 /* basevisitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = basevisitor.h; sourceTree = "<group>"; };
+		3D93C2902B2B1D8200360679 /* keyvisitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = keyvisitor.h; sourceTree = "<group>"; };
+		3D93C2922B2B1D8200360679 /* exports.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = exports.h; sourceTree = "<group>"; };
+		3D93C2932B2B1D8200360679 /* libmusicxml.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = libmusicxml.cpp; sourceTree = "<group>"; };
+		3D93C2942B2B1D8200360679 /* libmusicxml.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = libmusicxml.h; sourceTree = "<group>"; };
+		3D93C2952B2B1D8200360679 /* musicxml2guido.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = musicxml2guido.cpp; sourceTree = "<group>"; };
+		3D93C2972B2B1D8200360679 /* reader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = reader.h; sourceTree = "<group>"; };
+		3D93C29F2B2B1D8200360679 /* musicxmlquery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = musicxmlquery.h; sourceTree = "<group>"; };
+		3D93C2A02B2B1D8200360679 /* transposition.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = transposition.cpp; sourceTree = "<group>"; };
+		3D93C2A12B2B1D8200360679 /* transposition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = transposition.h; sourceTree = "<group>"; };
+		3D93C2A22B2B1D8200360679 /* musicxmlquery.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = musicxmlquery.cpp; sourceTree = "<group>"; };
+		3D93C2A42B2B1D8200360679 /* guido.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = guido.h; sourceTree = "<group>"; };
+		3D93C2A52B2B1D8200360679 /* xmlpart2guido.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xmlpart2guido.h; sourceTree = "<group>"; };
+		3D93C2A62B2B1D8200360679 /* timePositions.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = timePositions.cpp; sourceTree = "<group>"; };
+		3D93C2A72B2B1D8200360679 /* guido.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = guido.cpp; sourceTree = "<group>"; };
+		3D93C2A82B2B1D8200360679 /* timePositions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = timePositions.h; sourceTree = "<group>"; };
+		3D93C2A92B2B1D8200360679 /* xml2guidovisitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xml2guidovisitor.h; sourceTree = "<group>"; };
+		3D93C2AA2B2B1D8200360679 /* xmlpart2guido.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = xmlpart2guido.cpp; sourceTree = "<group>"; };
+		3D93C2AB2B2B1D8200360679 /* xml2guidovisitor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = xml2guidovisitor.cpp; sourceTree = "<group>"; };
+		3D93C2AC2B2B1D8200360679 /* readme.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = readme.txt; sourceTree = "<group>"; };
+		3D93C2AE2B2B1D8200360679 /* typedefs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = typedefs.h; sourceTree = "<group>"; };
+		3D93C2AF2B2B1D8200360679 /* elements.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = elements.h; sourceTree = "<group>"; };
+		3D93C2B02B2B1D8200360679 /* types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = types.h; sourceTree = "<group>"; };
+		3D93C2B22B2B1D8200360679 /* xml_tree_browser.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = xml_tree_browser.cpp; sourceTree = "<group>"; };
+		3D93C2B32B2B1D8200360679 /* versions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = versions.h; sourceTree = "<group>"; };
+		3D93C2B42B2B1D8200360679 /* xml_tree_browser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xml_tree_browser.h; sourceTree = "<group>"; };
+		3D93C2B52B2B1D8200360679 /* xml.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xml.h; sourceTree = "<group>"; };
+		3D93C2B62B2B1D8200360679 /* unrolled_xml_tree_browser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = unrolled_xml_tree_browser.h; sourceTree = "<group>"; };
+		3D93C2B72B2B1D8200360679 /* xml.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = xml.cpp; sourceTree = "<group>"; };
+		3D93C2BE2B2B1D8200360679 /* factory.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = factory.cpp; sourceTree = "<group>"; };
+		3D93C2BF2B2B1D8200360679 /* unrolled_xml_tree_browser.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = unrolled_xml_tree_browser.cpp; sourceTree = "<group>"; };
+		3D93C2C02B2B1D8200360679 /* versions.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = versions.cpp; sourceTree = "<group>"; };
+		3D93C2C12B2B1D8200360679 /* factory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = factory.h; sourceTree = "<group>"; };
+		3D93C2C32B2B1D8200360679 /* rational.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = rational.cpp; sourceTree = "<group>"; };
+		3D93C2C42B2B1D8200360679 /* smartpointer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = smartpointer.h; sourceTree = "<group>"; };
+		3D93C2C52B2B1D8200360679 /* conversions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = conversions.h; sourceTree = "<group>"; };
+		3D93C2C62B2B1D8200360679 /* tree_browser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tree_browser.h; sourceTree = "<group>"; };
+		3D93C2C72B2B1D8200360679 /* rational.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rational.h; sourceTree = "<group>"; };
+		3D93C2C82B2B1D8200360679 /* conversions.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = conversions.cpp; sourceTree = "<group>"; };
+		3D93C2C92B2B1D8200360679 /* singleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = singleton.h; sourceTree = "<group>"; };
+		3D93C2CA2B2B1D8200360679 /* smartlist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = smartlist.h; sourceTree = "<group>"; };
+		3D93C2CB2B2B1D8200360679 /* browser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = browser.h; sourceTree = "<group>"; };
+		3D93C2CC2B2B1D8200360679 /* functor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = functor.h; sourceTree = "<group>"; };
+		3D93C2CD2B2B1D8200360679 /* bimap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bimap.h; sourceTree = "<group>"; };
+		3D93C2CE2B2B1D8200360679 /* ctree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ctree.h; sourceTree = "<group>"; };
+		3D93C2D02B2B1D8200360679 /* xmlreader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xmlreader.h; sourceTree = "<group>"; };
+		3D93C2D12B2B1D8200360679 /* xmlfile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xmlfile.h; sourceTree = "<group>"; };
+		3D93C2D22B2B1D8200360679 /* xmlreader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = xmlreader.cpp; sourceTree = "<group>"; };
+		3D93C2D32B2B1D8200360679 /* xmlfile.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = xmlfile.cpp; sourceTree = "<group>"; };
+		3D93C2D52B2B1D8200360679 /* sortvisitor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = sortvisitor.cpp; sourceTree = "<group>"; };
+		3D93C2D62B2B1D8200360679 /* musicxmlfactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = musicxmlfactory.h; sourceTree = "<group>"; };
+		3D93C2D72B2B1D8200360679 /* sortvisitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sortvisitor.h; sourceTree = "<group>"; };
+		3D93C2D82B2B1D8200360679 /* musicxmlfactory.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = musicxmlfactory.cpp; sourceTree = "<group>"; };
+		3D93C3072B2B223F00360679 /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/lib/libxml2.tbd; sourceTree = DEVELOPER_DIR; };
+		3D93C3092B2B22A300360679 /* libxml2.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.2.dylib; path = ../../../../../../opt/homebrew/Cellar/libxml2/2.12.2/lib/libxml2.2.dylib; sourceTree = "<group>"; };
+		3D93C30B2B2B23C200360679 /* xmllex.c++ */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "xmllex.c++"; sourceTree = "<group>"; };
+		3D93C30D2B2B23DE00360679 /* xmlparse.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = xmlparse.cpp; sourceTree = "<group>"; };
+		3D93C30E2B2B23DE00360679 /* xmlparse.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = xmlparse.hpp; sourceTree = "<group>"; };
 		3D95F1622AA25567005D33D9 /* libNotationLibiOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libNotationLibiOS.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D9CAA80296CAD4400D94CAE /* ScoreObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ScoreObserver.h; path = Score/ScoreObserver.h; sourceTree = "<group>"; };
 		3DA0071E2A81579700BD0CCB /* QtCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QtCore.framework; path = ../../../../../../opt/homebrew/Cellar/qt/6.5.1_2/lib/QtCore.framework; sourceTree = "<group>"; };
@@ -2521,7 +2636,6 @@
 		3DA34AD1200A811100366BC7 /* FontTheme.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = FontTheme.cc; path = Fonts/FontTheme.cc; sourceTree = "<group>"; };
 		3DA34AD4200A81EE00366BC7 /* FontThemeMacOS.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = FontThemeMacOS.mm; path = Fonts/MacOS/FontThemeMacOS.mm; sourceTree = "<group>"; };
 		3DA34AD5200A81EF00366BC7 /* FontThemeMacOS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FontThemeMacOS.h; path = Fonts/MacOS/FontThemeMacOS.h; sourceTree = "<group>"; };
-		3DAF58A01D76CF8B0088C6AF /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
 		3DB2BE042A81F912007A33CA /* QtWidgets.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QtWidgets.framework; path = ../../../../../../opt/homebrew/Cellar/qt/6.5.1_2/lib/QtWidgets.framework; sourceTree = "<group>"; };
 		3DB35ECB29662E2600597010 /* Text.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Text.cc; path = Items/Text.cc; sourceTree = "<group>"; };
 		3DB35ECC29662E2600597010 /* Text.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Text.h; path = Items/Text.h; sourceTree = "<group>"; };
@@ -2695,6 +2809,9 @@
 		0475BDCFDA002412755FC12B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				3D93C3092B2B22A300360679 /* libxml2.2.dylib */,
+				3D93C3072B2B223F00360679 /* libxml2.tbd */,
+				3D93C2722B2B1D8200360679 /* libmusicxml */,
 				3DB2BE042A81F912007A33CA /* QtWidgets.framework */,
 				3DA007242A8157F000BD0CCB /* QtGui.framework */,
 				3DA0071E2A81579700BD0CCB /* QtCore.framework */,
@@ -2713,7 +2830,6 @@
 				3D64A6711D76C3050056B56B /* AudioUnit.framework */,
 				3D17D72F1D76C1DD007B6C67 /* AudioUnit.framework */,
 				3D576C7B1E0F6A8A00B72A88 /* CoreGraphics.framework */,
-				3DAF58A01D76CF8B0088C6AF /* libxml2.tbd */,
 			);
 			path = Frameworks;
 			sourceTree = "<group>";
@@ -3222,6 +3338,168 @@
 				3D8BA2B029DDE1BA00659045 /* XUIBase.m */,
 			);
 			path = XUIKit;
+			sourceTree = "<group>";
+		};
+		3D93C2722B2B1D8200360679 /* libmusicxml */ = {
+			isa = PBXGroup;
+			children = (
+				3D93C2AD2B2B1D8200360679 /* elements */,
+				3D93C2D42B2B1D8200360679 /* factory */,
+				3D93C2CF2B2B1D8200360679 /* files */,
+				3D93C2A32B2B1D8200360679 /* guido */,
+				3D93C2912B2B1D8200360679 /* interface */,
+				3D93C2C22B2B1D8200360679 /* lib */,
+				3D93C29E2B2B1D8200360679 /* operations */,
+				3D93C2962B2B1D8200360679 /* parser */,
+				3D93C2732B2B1D8200360679 /* visitors */,
+			);
+			path = libmusicxml;
+			sourceTree = "<group>";
+		};
+		3D93C2732B2B1D8200360679 /* visitors */ = {
+			isa = PBXGroup;
+			children = (
+				3D93C2742B2B1D8200360679 /* partlistvisitor.h */,
+				3D93C2752B2B1D8200360679 /* clonevisitor.h */,
+				3D93C2762B2B1D8200360679 /* xmlvisitor.cpp */,
+				3D93C2772B2B1D8200360679 /* clefvisitor.cpp */,
+				3D93C2782B2B1D8200360679 /* xmlvisitor.h */,
+				3D93C2792B2B1D8200360679 /* clefvisitor.h */,
+				3D93C27A2B2B1D8200360679 /* keyvisitor.cpp */,
+				3D93C27B2B2B1D8200360679 /* visitable.h */,
+				3D93C27C2B2B1D8200360679 /* transposevisitor.h */,
+				3D93C27D2B2B1D8200360679 /* unrolled_clonevisitor.h */,
+				3D93C27E2B2B1D8200360679 /* partsummary.cpp */,
+				3D93C27F2B2B1D8200360679 /* transposevisitor.cpp */,
+				3D93C2802B2B1D8200360679 /* metronomevisitor.cpp */,
+				3D93C2812B2B1D8200360679 /* notevisitor.h */,
+				3D93C2822B2B1D8200360679 /* clonevisitor.cpp */,
+				3D93C2832B2B1D8200360679 /* partsummary.h */,
+				3D93C2842B2B1D8200360679 /* timesignvisitor.cpp */,
+				3D93C2852B2B1D8200360679 /* keysignvisitor.cpp */,
+				3D93C2862B2B1D8200360679 /* visitor.h */,
+				3D93C2872B2B1D8200360679 /* midicontextvisitor.cpp */,
+				3D93C2882B2B1D8200360679 /* metronomevisitor.h */,
+				3D93C2892B2B1D8200360679 /* midicontextvisitor.h */,
+				3D93C28A2B2B1D8200360679 /* notevisitor.cpp */,
+				3D93C28B2B2B1D8200360679 /* unrolled_clonevisitor.cpp */,
+				3D93C28C2B2B1D8200360679 /* partlistvisitor.cpp */,
+				3D93C28D2B2B1D8200360679 /* timesignvisitor.h */,
+				3D93C28E2B2B1D8200360679 /* keysignvisitor.h */,
+				3D93C28F2B2B1D8200360679 /* basevisitor.h */,
+				3D93C2902B2B1D8200360679 /* keyvisitor.h */,
+			);
+			path = visitors;
+			sourceTree = "<group>";
+		};
+		3D93C2912B2B1D8200360679 /* interface */ = {
+			isa = PBXGroup;
+			children = (
+				3D93C2922B2B1D8200360679 /* exports.h */,
+				3D93C2932B2B1D8200360679 /* libmusicxml.cpp */,
+				3D93C2942B2B1D8200360679 /* libmusicxml.h */,
+				3D93C2952B2B1D8200360679 /* musicxml2guido.cpp */,
+			);
+			path = interface;
+			sourceTree = "<group>";
+		};
+		3D93C2962B2B1D8200360679 /* parser */ = {
+			isa = PBXGroup;
+			children = (
+				3D93C2972B2B1D8200360679 /* reader.h */,
+				3D93C30B2B2B23C200360679 /* xmllex.c++ */,
+				3D93C30D2B2B23DE00360679 /* xmlparse.cpp */,
+				3D93C30E2B2B23DE00360679 /* xmlparse.hpp */,
+			);
+			path = parser;
+			sourceTree = "<group>";
+		};
+		3D93C29E2B2B1D8200360679 /* operations */ = {
+			isa = PBXGroup;
+			children = (
+				3D93C2A22B2B1D8200360679 /* musicxmlquery.cpp */,
+				3D93C29F2B2B1D8200360679 /* musicxmlquery.h */,
+				3D93C2A02B2B1D8200360679 /* transposition.cpp */,
+				3D93C2A12B2B1D8200360679 /* transposition.h */,
+			);
+			path = operations;
+			sourceTree = "<group>";
+		};
+		3D93C2A32B2B1D8200360679 /* guido */ = {
+			isa = PBXGroup;
+			children = (
+				3D93C2A72B2B1D8200360679 /* guido.cpp */,
+				3D93C2A42B2B1D8200360679 /* guido.h */,
+				3D93C2AC2B2B1D8200360679 /* readme.txt */,
+				3D93C2A62B2B1D8200360679 /* timePositions.cpp */,
+				3D93C2A82B2B1D8200360679 /* timePositions.h */,
+				3D93C2AB2B2B1D8200360679 /* xml2guidovisitor.cpp */,
+				3D93C2A92B2B1D8200360679 /* xml2guidovisitor.h */,
+				3D93C2AA2B2B1D8200360679 /* xmlpart2guido.cpp */,
+				3D93C2A52B2B1D8200360679 /* xmlpart2guido.h */,
+			);
+			path = guido;
+			sourceTree = "<group>";
+		};
+		3D93C2AD2B2B1D8200360679 /* elements */ = {
+			isa = PBXGroup;
+			children = (
+				3D93C2AE2B2B1D8200360679 /* typedefs.h */,
+				3D93C2AF2B2B1D8200360679 /* elements.h */,
+				3D93C2B02B2B1D8200360679 /* types.h */,
+				3D93C2B22B2B1D8200360679 /* xml_tree_browser.cpp */,
+				3D93C2B32B2B1D8200360679 /* versions.h */,
+				3D93C2B42B2B1D8200360679 /* xml_tree_browser.h */,
+				3D93C2B52B2B1D8200360679 /* xml.h */,
+				3D93C2B62B2B1D8200360679 /* unrolled_xml_tree_browser.h */,
+				3D93C2B72B2B1D8200360679 /* xml.cpp */,
+				3D93C2BE2B2B1D8200360679 /* factory.cpp */,
+				3D93C2C12B2B1D8200360679 /* factory.h */,
+				3D93C2BF2B2B1D8200360679 /* unrolled_xml_tree_browser.cpp */,
+				3D93C2C02B2B1D8200360679 /* versions.cpp */,
+			);
+			path = elements;
+			sourceTree = "<group>";
+		};
+		3D93C2C22B2B1D8200360679 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				3D93C2C32B2B1D8200360679 /* rational.cpp */,
+				3D93C2C42B2B1D8200360679 /* smartpointer.h */,
+				3D93C2C52B2B1D8200360679 /* conversions.h */,
+				3D93C2C62B2B1D8200360679 /* tree_browser.h */,
+				3D93C2C72B2B1D8200360679 /* rational.h */,
+				3D93C2C82B2B1D8200360679 /* conversions.cpp */,
+				3D93C2C92B2B1D8200360679 /* singleton.h */,
+				3D93C2CA2B2B1D8200360679 /* smartlist.h */,
+				3D93C2CB2B2B1D8200360679 /* browser.h */,
+				3D93C2CC2B2B1D8200360679 /* functor.h */,
+				3D93C2CD2B2B1D8200360679 /* bimap.h */,
+				3D93C2CE2B2B1D8200360679 /* ctree.h */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		3D93C2CF2B2B1D8200360679 /* files */ = {
+			isa = PBXGroup;
+			children = (
+				3D93C2D02B2B1D8200360679 /* xmlreader.h */,
+				3D93C2D12B2B1D8200360679 /* xmlfile.h */,
+				3D93C2D22B2B1D8200360679 /* xmlreader.cpp */,
+				3D93C2D32B2B1D8200360679 /* xmlfile.cpp */,
+			);
+			path = files;
+			sourceTree = "<group>";
+		};
+		3D93C2D42B2B1D8200360679 /* factory */ = {
+			isa = PBXGroup;
+			children = (
+				3D93C2D52B2B1D8200360679 /* sortvisitor.cpp */,
+				3D93C2D62B2B1D8200360679 /* musicxmlfactory.h */,
+				3D93C2D72B2B1D8200360679 /* sortvisitor.h */,
+				3D93C2D82B2B1D8200360679 /* musicxmlfactory.cpp */,
+			);
+			path = factory;
 			sourceTree = "<group>";
 		};
 		3DC32BA1200E78BD00D1303F /* XUIKit */ = {
@@ -5042,35 +5320,57 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D93C2DD2B2B1D8200360679 /* transposevisitor.cpp in Sources */,
 				3D4F9FE72B25480B0097BC91 /* ScoreDocumentController.m in Sources */,
+				3D93C2F22B2B1D8200360679 /* xml2guidovisitor.cpp in Sources */,
 				3D4F9FBA2B2542410097BC91 /* FileLoadResultTest.cc in Sources */,
+				3D93C3052B2B218700360679 /* factory.cpp in Sources */,
+				3D93C2EE2B2B1D8200360679 /* musicxmlquery.cpp in Sources */,
 				3D4F9FBB2B2542410097BC91 /* PasteTest.cc in Sources */,
 				3D4F9FC72B2542410097BC91 /* TestBridge.mm in Sources */,
 				3D4F9FB32B2542410097BC91 /* PitchInfoTest.cc in Sources */,
+				3D93C2EF2B2B1D8200360679 /* timePositions.cpp in Sources */,
 				3D4F9FCA2B2542410097BC91 /* TestFileRepository.mm in Sources */,
 				3D4F9F942B2542410097BC91 /* BeamedNoteTest.cc in Sources */,
 				3D4F9FAA2B2542410097BC91 /* MxSlurTest.cc in Sources */,
 				3D4F9FE42B25480B0097BC91 /* ScoreViewCocoa.mm in Sources */,
+				3D93C2D92B2B1D8200360679 /* xmlvisitor.cpp in Sources */,
 				3D4F9FC62B2542410097BC91 /* TestController.cc in Sources */,
 				3D4F9FB12B2542410097BC91 /* BarlineTest.cc in Sources */,
+				3D93C2E12B2B1D8200360679 /* keysignvisitor.cpp in Sources */,
+				3D93C2FE2B2B1D8200360679 /* versions.cpp in Sources */,
 				3D4F9FA52B2542410097BC91 /* BeamLineTest.cc in Sources */,
+				3D93C2DB2B2B1D8200360679 /* keyvisitor.cpp in Sources */,
 				3D4F9FC82B2542410097BC91 /* MxTest.mm in Sources */,
 				3D4F9FA72B2542410097BC91 /* BeamSpecTest.cc in Sources */,
 				3D4F9FEB2B25480B0097BC91 /* Directories.mm in Sources */,
 				3D4F9FA02B2542410097BC91 /* MarkPositionTest.cc in Sources */,
+				3D93C2DF2B2B1D8200360679 /* clonevisitor.cpp in Sources */,
+				3D93C2F52B2B1D8200360679 /* xml_tree_browser.cpp in Sources */,
+				3D93C2FF2B2B1D8200360679 /* rational.cpp in Sources */,
+				3D93C2E02B2B1D8200360679 /* timesignvisitor.cpp in Sources */,
 				3D4F9FBC2B2542410097BC91 /* AttachedItemTest.cc in Sources */,
 				3D4F9FAF2B2542410097BC91 /* ChordSymbolValueTest.cc in Sources */,
 				3D4F9FB92B2542410097BC91 /* CurveTest.cc in Sources */,
+				3D93C2DC2B2B1D8200360679 /* partsummary.cpp in Sources */,
 				3D4F9FC42B2542410097BC91 /* KeySignatureTest.cc in Sources */,
 				3D4F9FA22B2542410097BC91 /* BeamFactoryTest.cc in Sources */,
+				3D93C2F02B2B1D8200360679 /* guido.cpp in Sources */,
 				3D4F9FBD2B2542410097BC91 /* BeamTest.cc in Sources */,
+				3D93C3032B2B1D8200360679 /* sortvisitor.cpp in Sources */,
+				3D93C3042B2B1D8200360679 /* musicxmlfactory.cpp in Sources */,
 				3D4F9FBE2B2542410097BC91 /* BombeTest.cc in Sources */,
 				3D4F9FB82B2542410097BC91 /* NoteTest.cc in Sources */,
 				3D4F9FBF2B2542410097BC91 /* ChordSymbolTest.cc in Sources */,
+				3D93C2DE2B2B1D8200360679 /* metronomevisitor.cpp in Sources */,
 				3D4F9F9E2B2542410097BC91 /* LordChordTest.cc in Sources */,
+				3D93C2E52B2B1D8200360679 /* partlistvisitor.cpp in Sources */,
+				3D93C2E62B2B1D8200360679 /* libmusicxml.cpp in Sources */,
 				3D4F9FB62B2542410097BC91 /* InstrumentTest.cc in Sources */,
 				3D4F9FEA2B25480B0097BC91 /* AppDelegate.mm in Sources */,
+				3D93C2ED2B2B1D8200360679 /* transposition.cpp in Sources */,
 				3D4F9F9F2B2542410097BC91 /* ChordHeadTest.cc in Sources */,
+				3D93C2F12B2B1D8200360679 /* xmlpart2guido.cpp in Sources */,
 				3D4F9F8F2B2542410097BC91 /* cpulFailure.cpp in Sources */,
 				3D4F9F9C2B2542410097BC91 /* MxMarkTest.cc in Sources */,
 				3D4F9FA82B2542410097BC91 /* BeamSaveTest.cc in Sources */,
@@ -5078,13 +5378,16 @@
 				3D4F9F962B2542410097BC91 /* MxConversionsTest.cc in Sources */,
 				3D4F9FC12B2542410097BC91 /* ChordTest.cc in Sources */,
 				3D4F9F9A2B2542410097BC91 /* BracketTest.cc in Sources */,
+				3D93C2E32B2B1D8200360679 /* notevisitor.cpp in Sources */,
 				3D4F9FC32B2542410097BC91 /* MxTimeSignatureTest.cc in Sources */,
 				3D4F9F952B2542410097BC91 /* MxStemTest.cc in Sources */,
+				3D93C2E42B2B1D8200360679 /* unrolled_clonevisitor.cpp in Sources */,
 				3D4F9FAB2B2542410097BC91 /* MxClefTest.cc in Sources */,
 				3D4F9F9D2B2542410097BC91 /* LoadAllFilesTest.cc in Sources */,
 				3D4F9FA92B2542410097BC91 /* MxDynamicsTest.cc in Sources */,
 				3D4F9FC22B2542410097BC91 /* TestScores.cc in Sources */,
 				3D4F9F922B2542410097BC91 /* cpulTestResult.cpp in Sources */,
+				3D93C2DA2B2B1D8200360679 /* clefvisitor.cpp in Sources */,
 				3D4F9FAE2B2542410097BC91 /* StaffTest.cc in Sources */,
 				3D4F9FB42B2542410097BC91 /* SevereTortureTest.cc in Sources */,
 				3D4F9FA32B2542410097BC91 /* TupletTest.cc in Sources */,
@@ -5093,19 +5396,24 @@
 				3D4F9FC52B2542410097BC91 /* TestMenuItem.m in Sources */,
 				3D4F9FC02B2542410097BC91 /* FermataTest.cc in Sources */,
 				3D4F9F982B2542410097BC91 /* BeatGroupingTest.cc in Sources */,
+				3D93C2F62B2B1D8200360679 /* xml.cpp in Sources */,
 				3D4F9FE92B25480B0097BC91 /* main.mm in Sources */,
 				3D4F9F902B2542410097BC91 /* cpulTestRegistry.cpp in Sources */,
 				3D4F9FCB2B2542410097BC91 /* TestFile.cc in Sources */,
 				3D4F9FAD2B2542410097BC91 /* MeasureTest.cc in Sources */,
 				3D4F9FB02B2542410097BC91 /* RawAccidentalTest.cc in Sources */,
+				3D93C2E22B2B1D8200360679 /* midicontextvisitor.cpp in Sources */,
 				3D4F9F912B2542410097BC91 /* cpulTest.cpp in Sources */,
 				3D4F9FB52B2542410097BC91 /* ThreadingTest.mm in Sources */,
 				3D4F9FEC2B25480B0097BC91 /* ScoreManager.cc in Sources */,
 				3D4F9F992B2542410097BC91 /* ChordSymbolRepository.cc in Sources */,
 				3D4F9F972B2542410097BC91 /* SpatialPointTest.cc in Sources */,
 				3D4F9FAC2B2542410097BC91 /* TimeMapTest.cc in Sources */,
+				3D93C3002B2B1D8200360679 /* conversions.cpp in Sources */,
+				3D93C3022B2B1D8200360679 /* xmlfile.cpp in Sources */,
 				3D4F9FA42B2542410097BC91 /* PlaybackNoteTest.cc in Sources */,
 				3D4F9FB22B2542410097BC91 /* InstrumentConfigTest.cc in Sources */,
+				3D93C30F2B2B23DE00360679 /* xmlparse.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

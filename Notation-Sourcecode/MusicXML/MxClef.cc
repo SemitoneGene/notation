@@ -10,7 +10,6 @@
 // komp
 #include "Clef.h"
 #include "Measure.h"
-#include "MxNoteReader.h"
 #include "Score.h"
 
 namespace komp
